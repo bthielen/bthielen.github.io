@@ -101,13 +101,7 @@ h1 {
 }
 
 
-h2 {
-	text-align: center;
-	margin-left: 80px;
-	float: left;
-	font-size: 20px;
 
-}
 
 h3 {
 	color: white;
@@ -183,6 +177,35 @@ nav li a {
 
 }
 
+/*indvidual pages*/
+
+figcaption {
+    font-family: norwester;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: black;
+    right: 500px;
+    margin-top: 50px;
+   
+}
+
+.imageDescription {
+	 font-family: norwester;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: black;
+    right: 500px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.imageIndividual {
+	width: 100%;
+   position: relative;
+   right: 20%;
+	margin-bottom: 10px;
+}
+
 
 
 /*index*/
@@ -198,14 +221,6 @@ section {
     src: url(norwester.otf);
 }
 
-figcaption {
-    font-family: norwester;
-    font-size: 25px;
-    margin-bottom: 15px;
-    text-align: left;
-    color: black;
-   
-}
 
 #images {
 	
@@ -219,23 +234,61 @@ figure {
 
 
 
-/*about*/
+
+.landscape {
+       float: left;
+        width:470px;     
+        height:470px;    
+        overflow:hidden;   
+        display: inline-block;
+
+    }
+
+.landscape  img{
+      
+        height: 470px;   
+            border: 1px solid black;
+    }
 
 .portrait {
+   float: left;
+        width:470px;
+        height:470px;
+        overflow:hidden;  
+        display: inline;
+        
+    }
+
+.portrait img {
+        width:470px;      
+        
+    }
+
+      .landscape:hover {
+  	.opacity -webkit-filter: opacity(50%);filter: opacity(50%);
+  }
+   .portrait:hover {
+  	.opacity -webkit-filter: opacity(50%);filter: opacity(50%);
+  }
+
+
+/*about*/
+
+.myportrait {
 
 width: 30%;
 float: left;
-margin-bottom: 40px;
 
 }
 
 #about {
 	float: right;
 	width: 600px;
-	color: #0B587F;
+	color: black;
 }
 
 /*contact*/
+
 
 
 
@@ -248,21 +301,19 @@ margin-bottom: 40px;
 	width: 175px;
 }
 
-#headerIcons {
+#headericons {
 	display: inline;
-	outline: 1px solid white;
 	float: right;
 	margin-right: 20px;
 	margin-top: 50px;
+	background-color: rgba(255, 255, 255, .2); 
+	box-shadow: 7px 7px 5px #141414;
 }
 
 .icon {
 	width: 50px;
 	display: inline;
 	border: 1px solid white;
-
-	
-
 }
 
 
@@ -272,7 +323,10 @@ margin-bottom: 40px;
 	display: block;
 	margin: 10px;
 
+}
 
+.headericon:hover {
+	.opacity -webkit-filter: opacity(50%);filter: opacity(50%);
 }
 
 #contactInfo {
@@ -289,6 +343,17 @@ margin-bottom: 40px;
 
 }
 
+#formWrapper h2 {
+ 
+	
+}
+
+#formWrapper {
+	width: 450px;
+	position: relative;
+	left: 22%;
+}
+
 form {
 	float: left;
 	width: 500px; 
@@ -299,61 +364,33 @@ form {
 input {
     display: block;
     height: 40px;
-    width: 200px;
+    width: 300px;
     margin-bottom: 12px;
     margin-top: 12px;
     border: 2px solid black;
-    position: relative;
-    left: 40%;
-    
+   
 	}
 
 label {
-	text-align: center;
+	text-align: left;
 	font-weight: bold;
-	 position: relative;
-    left: 55%;
-    font-family: arial, helvetica, sans-serif;
-
-	
+    font-family: arial, helvetica, sans-serif;	
 }
 
-select {
-	display: block;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	margin: 0 auto;
-	}
 
 textarea {
 	display: block;
-	height: 75px;
-	width: 200px;
-	 position: relative;
+	height: 150px;
+	width: 400px; 
 	 margin-top: 12px;
 	 margin-bottom: 12px;
-    left: 40%;
     border: 2px solid black;
 }
 
-
-
-#myState {
-	width: 200px;
-	position: relative;
-    left: 10%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border: 2px solid black;
-    position: relative;
-}
-
-#mySubmit, #myReset {
+#mySubmit {
 	display: inline;
 	margin-top: 13px;
 	width: 100px;
-	position: relative;
-	left: 40%;
 	background-color: white;
 	text-align: center;
 	font-weight: bold;
@@ -367,6 +404,6 @@ footer {
 	background-color: black;
 	clear: both;
 	color: #62CBFF;
-	margin-top: 5px;
+	margin-top: 50px;
 	
 }

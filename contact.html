@@ -62,7 +62,18 @@
 				</div>
 			</div>
 
-				<form id="contact" method="post" action="http://webdevbasics.net/scripts/demo.php">
+
+<?php
+    mail('bethany.thielen@gmail.com', $_POST['subject'], $_POST['message']);
+?>
+
+
+<script>
+function myFunction() {
+    alert("The form was submitted");
+}
+</script>
+				<form id="contact" method="post" action="email.php"  onsubmit="myFunction()">
 
 				<div id="formWrapper">
 
@@ -81,7 +92,7 @@
 					<textarea name="myComments" id="myComments" rows="4" cols="20"></textarea>
 
 		       	 	<div id="myButtons">
-						<input type="submit" id="mySubmit" value="Submit &gt;&gt;">
+						<input type="submit" id="mySubmit" value="Submit &gt;&gt;" action="mailto:bethany.thielen@gmail.com">
 					</div>
 				</div>
 		    	</form>

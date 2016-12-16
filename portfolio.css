@@ -26,7 +26,7 @@ header {
 	font-family: kollektif;
 	color: white;
 	position: relative;
-	left: 13%;
+	left: 15%;
 	bottom: 20px;
 }
 
@@ -213,10 +213,16 @@ figcaption {
 }
 
 .imageIndividual {
-	width: 100%;
-   position: relative;
-   right: 20%;
-	margin-bottom: 10px;
+	width: 800px;
+  	position: relative;
+   right: 35%;
+	
+}
+
+h2 {
+	font-family: arial;
+	text-align: center;
+	font-size: 14px;
 }
 
 
@@ -260,7 +266,7 @@ figure {
 .landscape  img{
       
         height: 470px;   
-            border: 1px solid black;
+         
     }
 
 .portrait {
@@ -273,7 +279,8 @@ figure {
     }
 
 .portrait img {
-        width:470px;      
+        width:470px; 
+        margin: 5px;     
         
     }
 
@@ -302,23 +309,38 @@ float: left;
 
 /*contact*/
 
+#headerContact h1 {
+	text-align: left;
+	margin-left: 114px;
+	font-size: 39px;
+	margin-bottom: 20px;
+	font-family: elephnt;
 
+}
 
 
 #sidebar {
-	float: right;
 	margin: 25px;
 	display: block;
-	background-color: #69787F;
+	background-color: #202731;
 	padding: 50px;
 	width: 175px;
+	height: 570px;
+	clear: both;
+	position: absolute;
+	top: 355px;
+	left: 811px;
 }
 
 
 .icon {
 	width: 50px;
 	display: inline;
-	border: 1px solid white;
+	margin: 2px;
+}
+
+.icon:hover {
+	outline: 1px solid white;
 }
 
 
@@ -330,6 +352,8 @@ float: left;
 
 }
 
+
+
 .headericon:hover {
 	outline: 1px solid white;
 }
@@ -338,20 +362,24 @@ float: left;
 	display: block;
 	line-height: 200%;
 	color: white;
+	font-size: 19px;
 	text-decoration: none;
 	text-align: left;
+	list-style: none;
+	
 }
 
 #contactInfo a {
 	display: block;
 	color: white;
+	list-style-type: none;
 
 }
 
-#formWrapper h2 {
- 
-	
+#contactInfo ul {
+	list-style: none;
 }
+
 
 #formWrapper {
 	width: 450px;
@@ -402,13 +430,26 @@ textarea {
 
 }
 
+#footerspace {
+	padding: 5px;
+}
 
 footer {
+	width: 960px;
+	height: 43px;
 	text-align: center;
 	font-size: 12px;
-	background-color: black;
+	background-image: url(mountainfooter.jpg);
+	background-repeat: no-repeat;
+	float: left;
 	clear: both;
-	color: #62CBFF;
-	margin-top: 50px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 17px;
 	
+}
+
+footer p {
+	position: relative;
+	bottom: 40%;
 }

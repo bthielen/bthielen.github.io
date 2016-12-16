@@ -66,7 +66,7 @@ function myFunction() {
     alert("The form was submitted");
 } IN THE HTML CODE: onsubmit="myFunction()"
 </script>
-				<form id="contact" method="post" action="mailto:psdsgner@live.com" onsubmit="myFunction()">
+				<form id="contact" method="post" action="mailto:psdsgner@live.com">
 
 				<div id="formWrapper">
 
@@ -85,7 +85,7 @@ function myFunction() {
 					<textarea name="myComments" id="myComments" rows="4" cols="20"></textarea>
 
 		       	 	<div id="myButtons">
-						<input type="submit" id="mySubmit" value="Submit &gt;&gt;" action="mailto:bethany.thielen@gmail.com">
+						<input type="submit" id="mySubmit" value="Submit &gt;&gt;" onsubmit="myFunction()">
 					</div>
 				</div>
 		    	</form>

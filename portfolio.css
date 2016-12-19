@@ -313,23 +313,23 @@ float: left;
 	text-align: left;
 	margin-left: 114px;
 	font-size: 39px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	font-family: elephnt;
+	float: left;
 
 }
 
 
 #sidebar {
-	margin: 25px;
-	display: block;
+	margin: 0px;
+	float: right;
 	background-color: #202731;
 	padding: 50px;
 	width: 175px;
 	height: 570px;
-	clear: both;
-	position: absolute;
-	top: 355px;
-	left: 811px;
+	
+	
+	
 }
 
 

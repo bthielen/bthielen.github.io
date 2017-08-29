@@ -1,0 +1,176 @@
+@media (max-width: 630px) {
+
+	#babyshowermockups img 
+	{
+		width: 100%!important;
+		display: block!important;
+
+
+	}
+
+	.babyshowersketch {
+		width: 100%!important;
+	}
+
+	#babyshowersketchdescrip {
+		float: none!important;
+		width: 100%!important;
+	}
+
+}
+
+
+
+@font-face {
+	font-family: Catamaran-Bold;
+	src: url(../fonts/Catamaran-Bold.ttf);
+}
+
+@font-face {
+	font-family: Catamaran-Medium;
+	src: url(../fonts/Catamaran-Medium.ttf);
+}
+
+@font-face {
+	font-family: Catamaran-Black;
+	src: url(../fonts/Catamaran-Black.ttf);
+}
+
+@font-face {
+	font-family: Catamaran-ExtraLight;
+	src: url(../fonts/Catamaran-ExtraLight.ttf);
+}
+
+
+@font-face {
+	font-family: Catamaran-Light;
+	src: url(../fonts/Catamaran-Light.ttf);
+
+}
+
+
+@font-face {
+	font-family: Catamaran-Regular;
+	src: url(../fonts/Catamaran-Regular.ttf);
+}
+
+#wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
+
+.persona {
+	width: 100%;
+	max-width: 900px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+		float: right;
+	width: 40%;
+	max-width: 400px;
+	margin: 20p
+}
+
+#uhaulHeader button {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	display: inline;
+	margin: 30px;
+	cursor: hand;
+
+}
+
+h1 {
+	font-size: 7vw;
+	color: #2E3E58;
+	text-align: center;
+	font-family: Catamaran-Bold;
+	line-height: 1.3em;
+}
+strong {
+background-color: #2E3E58;
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+
+
+h2 {
+	font-size: 4vw;
+	color: #2E3E58;
+	text-align: center;
+	font-family: Catamaran-Bold;
+	line-height: 1.3em;
+}
+
+.bold {
+	font-family: Catamaran-Medium;
+	font-size: 1.2em;
+	padding-bottom: 1em;
+}
+
+p {
+
+	font-size: 1em;
+	color: #757575;
+	text-align: center;
+	font-family: Catamaran-Regular;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
+
+.uhaulRole {
+	float: left;
+	width: 45%
+	
+
+}
+
+#uhaulPalette {
+	float: right;
+	width: 45%;
+}
+
+#uhaulcreativeProcess {
+	clear: both;
+	
+}
+
+
+}
+
+img {
+	width: 100%;
+}
+
+/*babyshower*/
+
+
+.babyshowersketch {
+
+	width: 35%;
+	float: right;
+	margin-bottom: 3%;
+}
+
+#babyshowermockups img {
+
+width: 32%;
+display: inline-block;
+}
+
+
+#babyshowermockups {
+	clear: both;
+}
+
+#babyshowersketchdescrip {
+	width: 45%;
+	float: left;
+}
+

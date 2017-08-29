@@ -1,0 +1,952 @@
+
+
+#currentPage {
+
+	border-bottom: 2px solid #6589c2;
+
+}
+
+
+@media (max-width: 900px) {
+
+	#babyShower img 
+	{
+		height: 200px!important;
+		width: auto!important;
+		margin-right: 20px!important;
+		left: 5%!important;
+
+	}
+
+}
+
+
+@media (max-width: 450px) {
+
+	#uxSection img
+	{
+	
+		display: none!important;
+
+	}
+
+
+	.projectDescrip p {
+			font-size: 12px!important;
+	}
+
+	.projectDescrip  {
+	
+		right: 25%!important;
+		position: relative!important;
+	}
+
+
+}
+
+@media (max-width: 796px) {
+#col3 label{
+
+  background:#242B3E;
+	display: block;
+	width: 100%;
+	margin-right:2px;
+	padding:14px 20px;
+	font-family: Catamaran-Medium;
+	font-size: 21px;
+  color:white;
+	cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+
+#individualPage p {
+
+	font-size: 12px!important;
+}
+  
+}
+
+
+
+
+@media (max-width: 500px) {
+  #graphicDesign {
+
+
+	margin: 0 auto;
+	  line-height: 0;
+   
+  -webkit-column-count: 1 !important;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    1!important;
+  -moz-column-gap:      1px;
+  column-count:         1!important;
+  column-gap:           0px;  
+
+  }
+
+
+    #tactileDesign {
+
+
+	margin: 0 auto;
+	  line-height: 0;
+   
+  -webkit-column-count: 1 !important;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    1!important;
+  -moz-column-gap:      1px;
+  column-count:         1!important;
+  column-gap:           0px;  
+
+  }
+
+
+  .imageOverlay {
+  	display: none!important;
+  }
+
+
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin: 0px !important;
+    border-bottom: 2px solid #6380A6 !important;
+    background-color:  rgba(101,137,194,.5) !important;
+    padding: 9px !important;
+    font-size: 3vw !important;
+}
+    .tabs input[type="radio"]:checked + label {
+
+    	background-color: #e28db1 !important;
+    }
+
+    .burger {
+    	left: 16.9em!important;
+    }
+
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+@font-face {
+    font-family: Gudea-Regular;
+    src: url(../fonts/Gudea-Regular.ttf);
+
+}
+
+
+@font-face {
+    font-family: risoless;
+    src: url(../fonts/risoless.ttf);
+}
+
+
+@font-face {
+    font-family: streetlight;
+    src: url(../fonts/streetlight.ttf);
+}
+
+@font-face {
+	font-family: Catamaran-Bold;
+	src: url(../fonts/Catamaran-Bold.ttf);
+}
+
+@font-face {
+	font-family: Catamaran-Medium;
+	src: url(../fonts/Catamaran-Medium.ttf);
+}
+
+@font-face {
+	font-family: Catamaran-Black;
+	src: url(../fonts/Catamaran-Black.ttf);
+}
+
+@font-face {
+	font-family: Catamaran-ExtraLight;
+	src: url(../fonts/Catamaran-ExtraLight.ttf);
+}
+
+
+@font-face {
+	font-family: Catamaran-Light;
+	src: url(../fonts/Catamaran-Light.ttf);
+
+}
+
+
+@font-face {
+	font-family: Catamaran-Regular;
+	src: url(../fonts/Catamaran-Regular.ttf);
+}
+
+.burger {
+	font-size: 5vw;
+	cursor:pointer;
+	left: 17.4em;
+	top: 1em;
+	position: absolute;
+	color: white;
+
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #e5e5e5;
+    display: block;
+    transition: 0.3s;
+    font-family: Catamaran-Light;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+    color: #6380A6;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+#section2 {
+	margin: 0 auto;
+}
+
+.tab h1 {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	font-size: 4.5vw;
+	margin-bottom: 0px;
+	font-family: Catamaran-Medium;
+	width: 80%;
+}
+
+.titleColor {
+	color:  #6380A6;
+}
+
+}
+
+
+
+#imageWrapper {
+width: 100%;
+height: auto;
+position: relative;
+
+}
+
+
+#headerImage {
+width: 100%;
+position: relative;
+
+}
+
+
+body {
+	background-color: #F2F1FF;
+}
+
+ .portfolio {
+	width: 400px;
+}
+
+#sidebar #sidebarHeader{
+	color: white !important;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 30px;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+/**
+ * Tabs
+ */
+.tabs {
+	display: flex;
+	flex-wrap: wrap; // make sure it wraps
+	margin: 0 auto;
+	justify-content: center;
+}
+.tabs label {
+	order: 1; // Put the labels first
+	display: block;
+	padding: 15px 15px 9px 15px;
+	margin: 10px 10px;
+	cursor: pointer;
+  background: transparent;
+  transition: background ease 0.2s;
+  font-size: 1.8vw;
+  font-family: Catamaran-Light;
+  text-transform: uppercase;
+
+
+
+
+}
+.tabs .tab {
+  order: 99; // Put the tabs last
+  flex-grow: 1;
+	width: 98%;
+	display: none;
+  padding: 1px;
+  background: transparent;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+
+/*changes color of selected tab*/
+.tabs input[type="radio"]:checked + label {
+	border-bottom: 4px solid  rgba(46,62,88,1);
+	background: transparent;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+
+/**
+ * Generic Styling
+*/
+
+
+
+
+label:hover{
+  border-bottom: 3px solid  #6589c2;
+
+}
+
+
+
+
+
+/*indvidual pages*/
+
+strong {
+background-color: #2E3E58;
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#individualPage {
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#individualPage img {
+
+	width: 100%;
+	margin-bottom: 5%;
+
+
+}
+
+#individualPage h1 {
+
+	font-family: Catamaran-Bold;
+	font-size: 5vw;
+	text-align: center;
+}
+
+#individualPage h2 {
+
+	font-size: 3vw;
+	font-family: Catamaran-Bold;
+	line-height: 20px;
+}
+
+#individualPage p {
+
+	font-family: Catamaran-Medium;
+	font-size: 1.7vw;
+}
+
+
+
+
+
+
+/*index*/
+
+
+
+
+.imageOverlay{
+position: absolute;
+top: 40%;
+width: 90%;
+margin-left: 3%;
+margin-right: 7%;
+z-index: 1;
+text-align: center;
+color: black; 
+font-size:  60px;
+font-family: Catamaran-Bold;
+opacity: 0;
+line-height: 60px;
+
+}
+
+.imgContainer:hover .imageOverlay {
+	color:black;
+	opacity: 1;
+}
+
+
+
+.imgContainer {
+	position: relative;
+}
+
+.imgContainer:hover img{
+	  	.opacity -webkit-filter: opacity(50%);filter: opacity(50%);
+}
+
+
+
+#graphicDesign img {
+	width: 94%;
+	margin: 0 auto;
+	margin-bottom: 6%;
+	position: relative;
+
+}
+
+
+#tactileDesign img {
+	width: 94%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+	position: relative;
+
+}
+
+#graphicDesign {
+	width: 94%;
+	margin-left: 6%;
+	margin-top: 4%;
+	  line-height: 0;
+     -webkit-column-count: 2;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    2;
+  -moz-column-gap:      0px;
+  column-count:         2;
+  column-gap:           0px;  
+
+}
+
+#tactileDesign {
+	width: 89%;
+	margin-left: 6%;
+	margin-top: 4%;
+	  line-height: 0;
+     -webkit-column-count: 2;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    2;
+  -moz-column-gap:      0px;
+  column-count:         2;
+  column-gap:           0px;  
+
+}
+
+
+#uxSection {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: relative;
+	margin-top: 2.4%;
+	margin-bottom: 2%;
+
+}
+
+
+#uxSection button {
+	background: transparent;
+	border: 2px solid black;
+	width: 169px;
+	font-family: Catamaran-Medium;
+	font-size: 16px;
+
+}
+
+
+button:hover {
+	color: #ff929c;
+	border: 2px solid #ff929c!important;
+}
+
+.projectDescrip {
+	display: inline-block;
+	width: 60%;
+	position: relative;
+	float: right;
+
+}
+
+
+#babyShower img {
+	display: inline-block;
+	width: auto;
+	margin-top: 0px;
+	margin-right: 5%;
+	height: 250px;
+	float: left;
+	position: relative;
+	left: 15%;
+	
+}
+
+
+
+
+#uhaul img {
+	display: inline-block;
+	width: 30%;
+	margin-top: 0px;
+	margin-right: 5%;
+	float: left;
+	
+}
+
+#solarspell img {
+	width: 34%;
+}
+
+.projectDescrip h2 {
+	font-family: Catamaran-Bold, arial;
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 2px;
+	margin-top: 0;
+
+}
+
+hr {
+
+	border-bottom: 2px solid black;
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 2.4%;
+
+
+
+}
+
+.regText {
+	font-family: Catamaran-Light;
+	font-size: 30px;
+}
+
+.projectDescrip p {
+	font-family: Catamaran-Light;
+	font-size: 2vw;
+	
+
+}
+
+#vase {
+
+	width: 24%!important;
+	height: auto;
+	left: 48%;
+}
+
+#avocado {
+
+	width: 50%!important;
+	left: 7%;
+
+	
+}
+
+#shoes {
+	
+	width: 55%;
+	left: 28%;
+	margin-top: 20%;
+	margin-bottom: 7%;
+}
+
+#medal {
+	width: 70%!important;
+	margin-top: 40%!important;
+}
+
+
+/*about*/
+
+
+
+
+
+
+}
+
+
+#about p {
+
+	padding: 3px;
+	width: 480px;
+	color: black;
+	text-align: center;
+	margin-top: 15px;
+
+}
+#about span {
+	font-size: 100px;
+	float: left;
+	font-family: risoless;
+	margin-left: 40px;
+	color: rgba(124, 124, 124, 0.5);
+
+}
+
+ .circle1 {
+	width: 10px;
+	height: 10px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+	margin-left: 6px;
+	border: 2px double black;
+	
+}
+
+
+#col1 li {
+		display: inline-block;
+		padding-left: 10px;
+		font-size: 23px;
+		font-family: kollektif;
+		line-height: 40px;
+}
+
+#col1 ul {
+	list-style-type: none;
+	width: 203px;
+
+}
+
+
+.progressBar {
+	width: 150px;
+	height: 24px;
+	border-radius: 5px;
+	border: 2px solid #f2c335;
+	margin: 6px 0 6px 0;
+
+	
+
+}
+
+.colorBar1 {
+	width: 85%;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	height: 18px;
+	background-color: #f2c335;
+	border-radius: 5px;
+
+}
+
+.colorBar2 {
+	width: 95%;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	height: 18px;
+	background-color:#f2c335;
+	border-radius: 5px;
+
+}
+
+.colorBar3 {
+	width: 75%;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	height: 18px;
+	background-color: #f2c335;
+	border-radius: 5px;
+
+}
+
+.colorBar4 {
+	width: 100%;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	height: 18px;
+	background-color: #f2c335;
+	border-radius: 5px;
+
+}
+
+#col1 { /*interests*/
+	float: right;
+	margin-right: 100px;
+
+}
+
+#col2 { /*skills*/
+	float: left;
+	margin-left: 110px;
+}
+
+
+#col3 {
+	float: left;
+	margin-left: 70px;
+}
+
+#about h2 {
+	font-size: 24px;
+}
+
+
+
+
+
+.circleFull {
+		width: 15px;
+	height: 15px;
+	background: #6380A6; 
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	display: inline-block;
+	margin-left: 6px;
+	margin-bottom: 49px;
+	
+}
+
+.personalityBox {
+	background-color: rgba(46,62,88,1);
+	height: 50px;
+	width: 130px;
+    margin-left: 40px;
+ 
+
+}
+
+.personalityBox2 {
+	background-color: #6589c2;
+	height: 50px;
+	width: 130px;
+	margin-left: 20px;
+ 
+
+}
+
+
+
+#col3 label {
+	
+	color: white;
+	font-size: 20px;
+	text-align: right;
+	position: relative;
+	top: 7px;
+	left: 20px;
+	position: relative;
+	list-style-type: none;
+	font-family: kollektif;
+	line-height: 38px;
+}
+
+
+
+/*#stitchedContainer h2:after {
+	content: "Bethany Thielen";
+	font-family: kollektif;
+	font-weight: bold;
+    position: absolute;
+	width: 600px;
+	font-size: 60px;
+	left: 170px;
+	top: -7px;
+	color: black; */
+	
+
+
+}
+
+/*contact*/
+
+#headerContact h1 {
+	text-align: left;
+	margin-left: 114px;
+	font-size: 39px;
+	margin-bottom: 0px;
+	font-family: 'Catamaran', sans-serif;
+	float: left;
+
+}
+
+
+#sidebar {
+	margin: 0px;
+	float: right;
+	background-color: #202731;
+	padding: 50px;
+	width: 175px;
+	height: 570px;
+	
+	
+	
+}
+
+
+
+
+#contactInfo {
+	display: block;
+	line-height: 200%;
+	color: white;
+	font-size: 19px;
+	text-decoration: none;
+	text-align: left;
+	list-style: none;
+	
+}
+
+
+
+}
+
+
+
+#formWrapper {
+	width: 450px;
+	position: relative;
+	left: 22%;
+}
+
+form {
+	float: left;
+	width: 500px; 
+	padding: 10px;
+
+}
+
+input {
+    display: block;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: 2px solid black;
+   
+	}
+
+
+
+textarea {
+	display: block;
+	height: 150px;
+	width: 400px; 
+	 margin-top: 12px;
+	 margin-bottom: 12px;
+    border: 2px solid black;
+}
+
+#mySubmit {
+	display: inline;
+	margin-top: 13px;
+	width: 100px;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#footerspace {
+	padding: 5px;
+}
+
+footer {
+	width: 100%;
+	height: 38px;
+	background-color: black;
+	float: left;
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+footer p {
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-family: Gudea-Regular;
+	text-align: center;
+	margin-top: 10px;
+	left: 35%;
+

@@ -89,11 +89,24 @@ h1 {
 	font-family: Catamaran-Bold;
 	line-height: 1.3em;
 }
-strong {
-background-color: #2E3E58;
-color: white;
-padding-left: 10px;
-padding-right: 10px;
+
+
+#individualPage a {
+
+font-family: Catamaran-Medium;
+font-size: 2.5vw;
+color: #324775;
+
+}
+
+#individualPage a:visited {
+	color: #324775;
+}
+
+#individualPage a:nth-child(2) {
+
+font-family: Catamaran-Medium;
+float: right;
 }
 
 

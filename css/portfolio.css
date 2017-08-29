@@ -379,10 +379,87 @@ label:hover{
 /*indvidual pages*/
 
 strong {
-background-color: #2E3E58;
+
 color: white;
-padding-left: 10px;
-padding-right: 10px;
+
+}
+
+#highlight {
+
+	background-color: #2E3E58;
+
+width: 100%;
+height: auto;
+
+}
+
+#individualPage a {
+
+font-family: Catamaran-Medium;
+font-size: 2.5vw;
+color: #324775;
+
+}
+
+#individualPage a:visited {
+	color: #324775;
+}
+
+#individualPage a:nth-child(2) {
+
+font-family: Catamaran-Medium;
+float: right;
+}
+
+
+#wrapper a {
+
+font-family: Catamaran-Medium;
+font-size: 2.5vw;
+color: #324775;
+
+}
+
+#wrapper a:visited {
+	color: #324775;
+}
+
+#wrapper a:nth-child(2) {
+
+font-family: Catamaran-Medium;
+float: right;
+}
+
+
+
+#avocadoImages img {
+
+width: 45%!important;
+display: inline-block;
+margin-top: 5%;
+
+
+}
+
+#floralShoes img {
+
+width: 45%!important;
+display: inline-block;
+margin-top: 5%;
+
+}
+
+#individualpagemedal img{
+
+	width: 80%!important;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+#individualpageVase {
+	width: 45%!important;
+	margin-left: 27.5%;
+	margin-right: 27.5%;
 }
 
 #individualPage {
@@ -405,6 +482,7 @@ padding-right: 10px;
 	font-family: Catamaran-Bold;
 	font-size: 5vw;
 	text-align: center;
+	margin-top: 2%;
 }
 
 #individualPage h2 {
@@ -526,6 +604,7 @@ line-height: 60px;
 	width: 169px;
 	font-family: Catamaran-Medium;
 	font-size: 16px;
+	cursor: pointer;
 
 }
 
@@ -624,15 +703,16 @@ hr {
 
 #shoes {
 	
-	width: 55%;
+	width: 65%!important;
 	left: 28%;
 	margin-top: 20%;
 	margin-bottom: 7%;
+
 }
 
 #medal {
 	width: 70%!important;
-	margin-top: 40%!important;
+	margin-top: 10%!important;
 }
 
 

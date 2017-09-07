@@ -43,7 +43,7 @@
 	bottom: 22%;
 	color: white;
 	position: absolute;
-	margin-left: 4%;
+	margin-left: 6%;
 
 	
 
@@ -100,6 +100,50 @@ h2 {
 	padding-right: 20px;
 }
 
+
+@media screen and (max-width: 522px) {
+
+#emailMe {
+
+	position: initial;
+	line-height: 25px;
+	text-align: center;
+	display: block;
+	padding-top: 9px;
+
+
+}
+
+#hruleContact {
+
+	border-top: 1px solid white;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 2%;
+}
+
+#emailMe h3 {
+
+		margin: 0;
+
+}
+
+#callMe {
+
+	
+position: initial;
+	line-height: 8px;
+	text-align: center;
+	display: block;
+}
+
+#contactsubContainer {
+	 height: 8.6em;
+}
+
+}
+
 @media screen and (max-width: 1000px) {
 
 
@@ -123,6 +167,11 @@ margin-left: 0;
 
 	left:15%;
 	margin-left: 0;
+}
+
+#aboutContainer {
+
+	width: 90%;
 }
 
 }

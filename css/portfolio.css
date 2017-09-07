@@ -7,142 +7,6 @@
 }
 
 
-@media (max-width: 900px) {
-
-	#babyShower img 
-	{
-		height: 200px!important;
-		width: auto!important;
-		margin-right: 20px!important;
-		left: 5%!important;
-
-	}
-
-}
-
-
-@media (max-width: 450px) {
-
-	#uxSection img
-	{
-	
-		display: none!important;
-
-	}
-
-
-	.projectDescrip p {
-			font-size: 12px!important;
-	}
-
-	.projectDescrip  {
-	
-		right: 25%!important;
-		position: relative!important;
-	}
-
-
-}
-
-@media (max-width: 796px) {
-#col3 label{
-
-  background:#242B3E;
-	display: block;
-	width: 100%;
-	margin-right:2px;
-	padding:14px 20px;
-	font-family: Catamaran-Medium;
-	font-size: 21px;
-  color:white;
-	cursor:pointer;
-  transition:background .3s;
-  -webkit-transition:background .3s;
-}
-
-
-#individualPage p {
-
-	font-size: 12px!important;
-}
-  
-}
-
-
-
-
-@media (max-width: 500px) {
-  #graphicDesign {
-
-
-	margin: 0 auto;
-	  line-height: 0;
-   
-  -webkit-column-count: 1 !important;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    1!important;
-  -moz-column-gap:      1px;
-  column-count:         1!important;
-  column-gap:           0px;  
-
-  }
-
-
-    #tactileDesign {
-
-
-	margin: 0 auto;
-	  line-height: 0;
-   
-  -webkit-column-count: 1 !important;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    1!important;
-  -moz-column-gap:      1px;
-  column-count:         1!important;
-  column-gap:           0px;  
-
-  }
-
-
-  .imageOverlay {
-  	display: none!important;
-  }
-
-
-  .tabs .tab,
-  .tabs label {
-    order: initial;
-  }
-  .tabs label {
-    width: 100%;
-    margin: 0px !important;
-    border-bottom: 2px solid #6380A6 !important;
-    background-color:  rgba(101,137,194,.5) !important;
-    padding: 9px !important;
-    font-size: 3vw !important;
-}
-    .tabs input[type="radio"]:checked + label {
-
-    	background-color: #e28db1 !important;
-    }
-
-    .burger {
-    	left: 16.9em!important;
-    }
-
-}
-
-
-
-@media screen and (max-height: 450px) {
-  .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
 
 
 @font-face {
@@ -396,13 +260,13 @@ height: auto;
 #individualPage a {
 
 font-family: Catamaran-Medium;
-font-size: 2.5vw;
-color: #324775;
+font-size: 2vw;
+color:  #2E3E58;
 
 }
 
 #individualPage a:visited {
-	color: #324775;
+	color:  #2E3E58;
 }
 
 #individualPage a:nth-child(2) {
@@ -482,7 +346,7 @@ margin-top: 5%;
 	font-family: Catamaran-Bold;
 	font-size: 5vw;
 	text-align: center;
-	margin-top: 2%;
+	margin-top: 0;
 }
 
 #individualPage h2 {
@@ -1030,3 +894,185 @@ footer p {
 	margin-top: 10px;
 	left: 35%;
 
+}
+
+
+@media screen and (max-width: 900px) {
+
+	#babyShower img 
+	{
+		height: 200px!important;
+		width: auto!important;
+		margin-right: 20px!important;
+		left: 5%!important;
+
+	}
+
+}
+
+
+@media screen and  (max-width: 450px) {
+
+	#uxSection img
+	{
+	
+		display: none!important;
+
+	}
+
+
+	.projectDescrip p {
+			font-size: 12px!important;
+	}
+
+	.projectDescrip  {
+	
+		right: 25%!important;
+		position: relative!important;
+	}
+
+
+}
+
+@media screen and (max-width: 796px) {
+#col3 label{
+
+  background:#242B3E;
+	display: block;
+	width: 100%;
+	margin-right:2px;
+	padding:14px 20px;
+	font-family: Catamaran-Medium;
+	font-size: 21px;
+  color:white;
+	cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+
+#individualPage p {
+
+	font-size: 12px!important;
+}
+  
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+
+	#vase {
+
+	width: 24%!important;
+	height: auto;
+	left: 0!important;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#avocado {
+
+	width: 50%!important;
+	left: 0!important;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+#shoes {
+	
+	width: 65%!important;
+	left: 0!important;
+	display: block;
+	margin-left: auto!important
+	margin-right: auto!important;
+
+}
+
+#medal {
+	width: 70%!important;
+	margin-top: 0!important;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+  #graphicDesign {
+
+
+	margin: 0 auto;
+	  line-height: 0;
+   
+  -webkit-column-count: 1 !important;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    1!important;
+  -moz-column-gap:      1px;
+  column-count:         1!important;
+  column-gap:           0px;  
+
+  }
+
+
+    #tactileDesign {
+
+
+	margin: 0 auto;
+	  line-height: 0;
+   
+  -webkit-column-count: 1 !important;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    1!important;
+  -moz-column-gap:      1px;
+  column-count:         1!important;
+  column-gap:           0px;  
+
+  }
+
+
+  .imageOverlay {
+  	display: none!important;
+  }
+
+
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  }
+  .tabs label {
+    width: 100%;
+    margin: 0px !important;
+    border-bottom: 2px solid #6380A6 !important;
+    background-color:  rgba(101,137,194,.5) !important;
+    padding: 9px !important;
+    font-size: 3vw !important;
+}
+    .tabs input[type="radio"]:checked + label {
+
+    	background-color: #e28db1 !important;
+    }
+
+    .burger {
+    	left: 16.9em!important;
+    }
+
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}

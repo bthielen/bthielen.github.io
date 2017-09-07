@@ -1,0 +1,128 @@
+#aboutContainer {
+
+	width: 60%;
+	max-width: 800px;
+	height: auto;
+	margin: 0 auto;
+	border: 2px solid #6589c2;
+	margin-bottom: 5%;
+	margin-top: 100px;
+
+}
+
+.profileCircle {
+
+	position: relative;
+	width: 210px;
+	margin-left: auto;
+	margin-right: auto;
+	top: -90px;
+	display: block;
+
+
+}
+
+.profileRectangle {
+	display: none;
+}
+
+
+
+#contactsubContainer {
+
+	width: 100%;
+	background-color: #6589c2;
+	height: 7.33em;
+	position: relative;
+	top: -55%;
+}
+
+
+#emailMe {
+
+	bottom: 22%;
+	color: white;
+	position: absolute;
+	margin-left: 4%;
+
+	
+
+}
+
+#callMe {
+
+	bottom: 22%;
+	color: white;
+	position: absolute;
+	margin-left: 76%;
+}
+
+h3 {
+
+	text-align: center;
+	font-family: Catamaran-Bold;
+	font-size: 1.3em;
+}
+
+#contactsubContainer a {
+
+font-family: Catamaran-Light;
+text-decoration: none;
+color: white;
+
+}
+
+
+#aboutContainer p {
+	text-align: center;
+	padding: 2% 8% 2% 8%;
+	font-family: Catamaran-Light;
+
+}
+
+h2 {
+
+	text-align: center;
+	font-family: Catamaran-Bold;
+	font-size: 1.5em;
+}
+
+#socialIcons {
+
+	
+	text-align: center;
+	margin-bottom: 3%;
+
+}
+
+#socialIcons img{
+
+	padding-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+.profileCircle {
+
+	display: none!important;
+}
+
+.profileRectangle {
+	display: block;
+	width: 100%;
+}
+
+#callMe {
+
+right: 21%;
+margin-left: 0;
+}
+
+#emailMe {
+
+	left:15%;
+	margin-left: 0;
+}
+
+}

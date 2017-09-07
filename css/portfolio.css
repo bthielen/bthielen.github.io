@@ -1060,7 +1060,10 @@ footer p {
     }
 
     .burger {
-    	left: 16.9em!important;
+    	left: 11.6em!important;
+    	font-size: 7vw;
+
+
     }
 
 }

@@ -70,6 +70,10 @@
 
 }
 
+.hidden {
+	display: none;
+}
+
 .overlay {
     height: 0%;
     width: 100%;
@@ -381,7 +385,7 @@ margin-right: 7%;
 z-index: 1;
 text-align: center;
 color: black; 
-font-size:  60px;
+font-size:  5vw;
 font-family: Catamaran-Bold;
 opacity: 0;
 line-height: 60px;
@@ -478,34 +482,62 @@ button:hover {
 	border: 2px solid #ff929c!important;
 }
 
+
+
+
+
 .projectDescrip {
 	display: inline-block;
 	width: 60%;
 	position: relative;
 	float: right;
+	
 
 }
 
+.projectDescrip h3 {
 
-#babyShower img {
+	color: #ff929c;
+	font-family: Catamaran-Medium;
+	margin: 2px;
+}
+
+.thin {
+
+	font-family: Catamaran-ExtraLight;
+}
+
+#thymeforDinner img {
+
+
 	display: inline-block;
-	width: auto;
-	margin-top: 0px;
+	width: 35%;
+	margin-top: 20px;
 	margin-right: 5%;
-	height: 250px;
 	float: left;
-	position: relative;
-	left: 15%;
 	
 }
 
 
 
+#babyShower img {
+	display: inline-block;
+	width: auto;
+	margin-top: 15px;
+	margin-right: 5%;
+	height: 250px;
+	float: left;
+	position: relative;
+	left: 15%;
+
+	
+}
+
 
 #uhaul img {
 	display: inline-block;
 	width: 30%;
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-right: 5%;
 	float: left;
 	
@@ -955,6 +987,12 @@ footer p {
 
 	font-size: 12px!important;
 }
+
+.tabs label {
+
+font-size: 2.4vw;
+
+}
   
 }
 
@@ -963,6 +1001,14 @@ footer p {
 
 @media screen and (max-width: 500px) {
 
+
+#wrapper a {
+
+font-family: Catamaran-Medium;
+font-size: 4vw;
+color: #324775;
+
+}
 
 	#vase {
 

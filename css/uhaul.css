@@ -116,32 +116,13 @@ font-family: Catamaran-Medium;
 float: right;
 }
 
-#linkContainer {
-
-
-overflow: hidden;
-
-}
-
-#linkContainer img {
-
-	width: 100%;
-    -webkit-filter: opacity(40%); /* Safari */
-    filter: opacity(30%)
-    z-index 2;
-    position: relative;
-}
-
 
 #linkContainer a {
 
 	z-index: 1;
-	position: relative;
-	position: absolute;
 	width: 40%;
 	height: 90px;
-	left: 30%;
-	margin-top: 5%;
+
 
 	
 }

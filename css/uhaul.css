@@ -31,6 +31,19 @@
 	src: url(../fonts/Catamaran-Regular.ttf);
 }
 
+@font-face {
+    font-family: Museo-Slab;
+    src: url(../fonts/Museo_Slab_500.otf);
+
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/bebas.otf);
+
+}
+
+
 #wrapper {
 	width: 75%;
 	margin: 0 auto;
@@ -56,6 +69,7 @@
 }
 
 #restofText {
+
 	clear: both;
 }
 
@@ -75,7 +89,7 @@ h1 {
 	color: #2E3E58;
 	text-align: left;
 	font-family: Catamaran-Bold;
-	line-height: 1.3em;
+	line-height: 1em;
 }
 
 #highlight h1 {
@@ -102,6 +116,55 @@ font-family: Catamaran-Medium;
 float: right;
 }
 
+#linkContainer {
+
+
+overflow: hidden;
+
+}
+
+#linkContainer img {
+
+	width: 100%;
+    -webkit-filter: opacity(40%); /* Safari */
+    filter: opacity(30%)
+    z-index 2;
+    position: relative;
+}
+
+
+#linkContainer a {
+
+	z-index: 1;
+	position: relative;
+	position: absolute;
+	width: 40%;
+	height: 90px;
+	left: 30%;
+	margin-top: 5%;
+
+	
+}
+
+ button {
+	background: transparent;
+	border: 2px solid black;
+	width: auto;
+	font-family: Catamaran-Medium;
+	font-size: 25px;
+	cursor: pointer;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+button:hover {
+	color: #ff929c;
+	border: 2px solid #ff929c!important;
+}
+
+
 
 
 h2 {
@@ -109,7 +172,7 @@ h2 {
 	color: #2E3E58;
 	text-align: center;
 	font-family: Catamaran-Bold;
-	line-height: 1.3em;
+	line-height: .5em;
 }
 
 .bold {
@@ -180,64 +243,366 @@ display: inline-block;
 	float: left;
 }
 
-@media (max-width: 630px) {
 
+/*THYME FOR DINNER*/ 
 
-#personaText {
+#designHeader img {
 
-	float: none;
-	width: auto;
+	width: 100%;
 }
 
-#restofText {
-	clear: none;
+#designHeader {
+	line-height: 0;
+	margin-bottom: -10px;
 }
 
-.persona {
+#designandTypefaces {
 
-	float: none;
+	  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+
+}
+
+
+#designColors {
+
+	width: 50%;
+	background-color: white;
+
+  flex: 1;
+
+
+}
+
+
+#designTypefaces {
+
+	width: 50%;
+
+	background-color: #e4e4e4;
+
+
+flex: 1;
+
+}
+
+#typefacesContainer {
+
+	padding: 4%;
+	
+}
+
+
+.museo {
+
+	font-family: Museo-Slab, arial, sans-serif;
+	font-size: 3.8em;
+	color: #565656;
+}
+
+.bebas {
+
+	font-family: bebas, arial, sans-serif;
+	font-size: 2.4em;
+	color: #565656;
+	padding-bottom: 9px;
+}
+
+.openSans {
+	font-family: 'Open-Sans', arial, sans-serif;
+	color: #565656;
+	font-size: .8em;
+}
+
+.typefaceDescription {
+font-family: 'Open-Sans', arial, sans-serif;
+color: #d85300;
+padding-bottom: 3.5%;
+font-size: 1.4vw;
+
+}
+
+#grey {
+
+	width: 100%;
+	height: 60px;
+	background-color: #565656;
+	  display: -webkit-flex;
+  display: -ms-flexbox;
+
+
+	
+}
+
+#orange {
+
+	width: 100%;
+	height: 60px;
+	background-color: #d85300;
+	  display: -webkit-flex;
+  display: -ms-flexbox;
+
+
+	
+}
+
+#lightGrey {
+width: 100%;
+	height: 60px;
+	background-color: #e4e4e4;
+	  display: -webkit-flex;
+  display: -ms-flexbox;
+
+
+}
+
+
+#designColors p {
+color: white;
+text-align: center;
+padding-top: 16px;
+
+}
+
+#lightGrey p {
+
+	color: black;
 }
 
 
 
+#designLogo {
 
-	#babyshowermockups img 
-	{
-		width: 100%;
-		display: block;
+	background-color: #565656;
+	position: relative;
+	top: -42px;
+	
+}
+
+#designLogo h2 {
+	line-height: 1.7em;
+	color: white;
+	padding-top: 10px;
+}
+#designLogo img {
+
+	width: 100%;
+	position: relative;
+top: -30px;
+}
 
 
+#mockups img {
+
+	width: 100%;
+}
+
+
+#iphones {
+display: flex;
+display: -webkit-box; 
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex; 
+justify-content: space-around;
+ 
+}
+
+#iphones img {
+
+	width: 95%;
+}
+
+
+
+@media (max-width: 1016px) {
+
+
+.museo {
+
+
+	font-size: 2.5em;
+
+}
+
+.bebas {
+
+	font-size: 1.7em;
+}
+
+}
+						
+						
+@media (max-width: 700px) {
+
+
+button {
+
+	font-size: 3vw;
+}
+
+h2 {
+	font-size: 5.4vw;
+	color: #2E3E58;
+	text-align: center;
+	font-family: Catamaran-Bold;
+	line-height: 1em;
+}
+
+	#personaText {
+
+		float: none;
+		width: auto;
 	}
 
-	.babyshowersketch {
-		width: 100%;
+	#branding {
+		clear: none;
+	
+		
 	}
 
-	#babyshowersketchdescrip {
-		float: none!;
-		width: 100%;
-	}
-
-	p {
-
-		font-size: 1em;
-	}
-
-	.bold {
-
-		font-size: 1.2em;
-		text-align: center;
+	#restofText {
+		clear: none;
 	}
 
 	.persona {
-	max-width: none;
-	position: relative;
-	margin: 0 auto;
-	display: block;
-		float: right;
-	width: 90%;
-	max-width: 400px;
-	padding: 10px;
+
+		float: none;
+	}
+
+#designandTypefaces {
+
+	  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+
+}
+
+
+#designColors {
+
+	width: 100%;
+	background-color: white;
+	height: 10em;
+	flex: 1;
+
+
+}
+
+
+#designTypefaces {
+
+	width: 100%;
+	height: 350px;
+	background-color: #e4e4e4;
+flex: 1;
+
+}
+	.museo {
+
+		font-size: 7.2vw;
+	}
+
+	.bebas {
+
+		font-family: bebas, arial, sans-serif;
+		font-size: 5.6vw;
+		color: #565656;
+	}
+
+	.openSans {
+		font-family: 'Open-Sans', arial, sans-serif;
+		color: #565656;
+		font-size: 1em;
+	}
+
+		#designLogo {
+
+	margin-top: 80px;
+		position: initial;
+	top: 0px
+
+}
+
+#designLogo h2 {
+
+	line-height: 3.7em;
+}
+
+
+	/*BABY SHOWER*/
+
+
+		#babyshowermockups img 
+		{
+			width: 100%;
+			display: block;
+
+
+		}
+
+		.babyshowersketch {
+			width: 100%;
+		}
+
+		#babyshowersketchdescrip {
+			float: none!;
+			width: 100%;
+		}
+
+		p {
+
+			font-size: 1em;
+		}
+
+
+	.typefaceDescription {
+	font-family: 'Open-Sans', arial, sans-serif;
+	color: #d85300;
+	padding-bottom: 3.5%;
+	font-size: .7em;
+
+	}
+
+		.bold {
+
+			font-size: 1.2em;
+			text-align: left;
+		}
+
+		.persona {
+		max-width: none;
+		position: relative;
+		margin: 0 auto;
+		display: block;
+			float: right;
+		width: 90%;
+		max-width: 400px;
+		padding: 10px;
+	}
+
+	#iphones {
+display: flex;
+display: -webkit-box; 
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex; 
+justify-content: space-around;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+ 
+}
+
+#iphone1, #iphone2, #iphone3{
+	align-self: center;
+	width: 75%;
 }
 
 }

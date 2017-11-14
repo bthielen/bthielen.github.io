@@ -118,10 +118,6 @@
 
 
 
-
-
-
-
 #section2 {
 	margin: 0 auto;
 }
@@ -453,18 +449,16 @@ line-height: 60px;
 }
 
 
-#uxSection {
+.uxSection {
 	width: 80%;
 	margin-left: 10%;
-	margin-right: 10%;
-	position: relative;
 	margin-top: 2.4%;
 	margin-bottom: 2%;
 
 }
 
 
-#uxSection button {
+.uxSection button {
 	background: transparent;
 	border: 2px solid black;
 	width: 169px;
@@ -482,14 +476,18 @@ button:hover {
 
 
 
+.uximgContainer {
+
+	width: 45%;
+}
 
 
 .projectDescrip {
 	display: inline-block;
-	width: 60%;
+	width: 50%;
 	position: relative;
-	float: right;
-	
+	height: 300px;
+	margin-left: 5%;
 
 }
 
@@ -505,13 +503,33 @@ button:hover {
 	font-family: Catamaran-ExtraLight;
 }
 
+#thymeforDinner {
+
+border-bottom: 2px solid black;
+
+}
+
+#uhaul {
+border-bottom: 2px solid black;
+margin-top: 6%;
+overflow: hidden;
+
+}
+
+#babyshower {
+	border-bottom: 2px solid black;
+	overflow: hidden;
+}
+
+/*make widths and margins add up to 100% for each img*/
+
 #thymeforDinner img {
 
 
 	display: inline-block;
-	width: 35%;
+	width: 100%;
 	margin-top: 20px;
-	margin-right: 5%;
+	margin-right: 0;
 	float: left;
 	
 }
@@ -519,30 +537,28 @@ button:hover {
 
 
 #babyShower img {
-	display: inline-block;
-	width: auto;
-	margin-top: 15px;
-	margin-right: 5%;
-	height: 250px;
+display: inline-block;
+	width: 36%;
+	margin-top: 20px;
+	margin-right: 32%;
+	margin-left: 32%;
 	float: left;
-	position: relative;
-	left: 15%;
-
 	
 }
 
 
 #uhaul img {
 	display: inline-block;
-	width: 30%;
+	width: 84%;
 	margin-top: 20px;
-	margin-right: 5%;
+	margin-right: 8%;
+	margin-left: 8%;
 	float: left;
 	
 }
 
 #solarspell img {
-	width: 34%;
+	width: 90%;
 }
 
 .projectDescrip h2 {
@@ -554,19 +570,6 @@ button:hover {
 
 }
 
-hr {
-
-	border-bottom: 2px solid black;
-	border-top: 1px solid transparent;
-	border-left: 1px solid transparent;
-	width: 80%;
-	margin-right: 10%;
-	margin-left: 10%;
-	padding-top: 2.4%;
-
-
-
-}
 
 .regText {
 	font-family: Catamaran-Light;
@@ -938,12 +941,20 @@ footer p {
 
 	}
 
+	.projectDescrip {
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	height: 230px;
+	margin-left: 5%;
+
+
 }
 
 
 @media screen and  (max-width: 450px) {
 
-	#uxSection img
+	.uxSection img
 	{
 	
 		display: none!important;
@@ -957,7 +968,7 @@ footer p {
 
 	.projectDescrip  {
 	
-		right: 25%!important;
+	
 		position: relative!important;
 	}
 
@@ -1109,6 +1120,11 @@ color: #324775;
     	font-size: 7vw;
 
 
+    }
+
+    #uhaul .projectDescrip {
+
+    	height: 250px;
     }
 
 }

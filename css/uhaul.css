@@ -381,6 +381,11 @@ top: -30px;
 	width: 100%;
 }
 
+#mockups p {
+
+	margin-bottom: 4%;
+	text-align: left;
+}
 
 #iphones {
 display: flex;

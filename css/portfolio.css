@@ -542,6 +542,7 @@ display: inline-block;
 	margin-top: 20px;
 	margin-right: 32%;
 	margin-left: 32%;
+
 	float: left;
 	
 }
@@ -610,6 +611,13 @@ display: inline-block;
 #medal {
 	width: 70%!important;
 	margin-top: 10%!important;
+}
+
+#longboard {
+
+	width: 80%!important;
+	margin-top: 10%!important;
+
 }
 
 

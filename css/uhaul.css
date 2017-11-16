@@ -387,6 +387,13 @@ top: -30px;
 	text-align: left;
 }
 
+.uhaulMockups p {
+
+	margin-bottom: 1%!important;
+
+
+}
+
 #iphones {
 display: flex;
 display: -webkit-box; 

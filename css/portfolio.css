@@ -248,43 +248,81 @@ color: white;
 
 #highlight {
 
-	background-color: #2E3E58;
-
+background-color: #2E3E58;
 width: 100%;
 height: auto;
 
 }
 
-#individualPage a {
+#highlight h1 {
 
-font-family: Catamaran-Medium;
-font-size: 2vw;
-color:  #2E3E58;
-
-}
-
-#individualPage a:visited {
-	color:  #2E3E58;
-}
-
-#individualPage a:nth-child(2) {
-
-font-family: Catamaran-Medium;
-float: right;
+	text-align: center;
+	    font-size: 7vw;
+    color: #2E3E58;
+    text-align: center;
+    font-family: Catamaran-Bold;
+    line-height: 1em;
 }
 
 
-#wrapper a {
+
+/*#individualPage a {
 
 font-family: Catamaran-Medium;
 font-size: 2.5vw;
 color: #324775;
 
+} */
+
+#nextBar {
+
+	background-color: #e4e4ef;
+	height: 33px;
+		position: -webkit-sticky; 
+    position: sticky;
+    top: -2px; 
+    margin-bottom: -6%;
+    z-index: 1;
 }
 
-#wrapper a:visited {
-	color: #324775;
+#nextBar button {
+
+	background-color: #ff929c;
+	border: none;
+	width: 200px;
+	color: white;
+	font-family: Catamaran-Medium;
+	height: 33px;
+	font-size: 20px;
+	cursor: pointer;
+
+
 }
+
+#nextBar a {
+
+
+
+}
+
+
+#nextBar a:nth-child(2) {
+float: right;
+}
+
+
+
+
+#individualPage h2 {
+
+	font-size: 7vw;
+	color: #2E3E58;
+	text-align: left;
+	font-family: Catamaran-Bold;
+	line-height: 1em;
+
+}
+
 
 #wrapper a:nth-child(2) {
 
@@ -319,9 +357,9 @@ margin-top: 5%;
 }
 
 #individualpageVase {
-	width: 45%!important;
-	margin-left: 27.5%;
-	margin-right: 27.5%;
+	width: 35%!important;
+	margin-left: 32.5%;
+	margin-right: 32.5%;
 }
 
 #individualPage {
@@ -339,17 +377,10 @@ margin-top: 5%;
 
 }
 
-#individualPage h1 {
-
-	font-family: Catamaran-Bold;
-	font-size: 5vw;
-	text-align: center;
-	margin-top: 0;
-}
 
 #individualPage h2 {
 
-	font-size: 3vw;
+	font-size: 5vw;
 	font-family: Catamaran-Bold;
 	line-height: 20px;
 }
@@ -454,6 +485,7 @@ line-height: 60px;
 	margin-left: 10%;
 	margin-top: 2.4%;
 	margin-bottom: 2%;
+	
 
 }
 
@@ -469,7 +501,7 @@ line-height: 60px;
 }
 
 
-button:hover {
+.projectDescrip button:hover {
 	color: #ff929c;
 	border: 2px solid #ff929c!important;
 }
@@ -479,14 +511,15 @@ button:hover {
 .uximgContainer {
 
 	width: 45%;
+
 }
 
 
 .projectDescrip {
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 	position: relative;
-	height: 300px;
+	height: 230px;
 	margin-left: 5%;
 
 }
@@ -506,6 +539,7 @@ button:hover {
 #thymeforDinner {
 
 border-bottom: 2px solid black;
+padding-bottom: 5%;
 
 }
 
@@ -513,6 +547,7 @@ border-bottom: 2px solid black;
 border-bottom: 2px solid black;
 margin-top: 6%;
 overflow: hidden;
+padding-bottom: 30px;
 
 }
 
@@ -542,18 +577,18 @@ display: inline-block;
 	margin-top: 20px;
 	margin-right: 32%;
 	margin-left: 32%;
-
 	float: left;
+	margin-bottom: 5%;
 	
 }
 
 
 #uhaul img {
+	
 	display: inline-block;
-	width: 84%;
+	width: 100%;
 	margin-top: 20px;
-	margin-right: 8%;
-	margin-left: 8%;
+	margin-right: 0;
 	float: left;
 	
 }
@@ -677,150 +712,6 @@ display: inline-block;
 }
 
 
-.progressBar {
-	width: 150px;
-	height: 24px;
-	border-radius: 5px;
-	border: 2px solid #f2c335;
-	margin: 6px 0 6px 0;
-
-	
-
-}
-
-.colorBar1 {
-	width: 85%;
-	position: relative;
-	top: 3px;
-	left: 3px;
-	height: 18px;
-	background-color: #f2c335;
-	border-radius: 5px;
-
-}
-
-.colorBar2 {
-	width: 95%;
-	position: relative;
-	top: 3px;
-	left: 3px;
-	height: 18px;
-	background-color:#f2c335;
-	border-radius: 5px;
-
-}
-
-.colorBar3 {
-	width: 75%;
-	position: relative;
-	top: 3px;
-	left: 3px;
-	height: 18px;
-	background-color: #f2c335;
-	border-radius: 5px;
-
-}
-
-.colorBar4 {
-	width: 100%;
-	position: relative;
-	top: 3px;
-	left: 3px;
-	height: 18px;
-	background-color: #f2c335;
-	border-radius: 5px;
-
-}
-
-#col1 { /*interests*/
-	float: right;
-	margin-right: 100px;
-
-}
-
-#col2 { /*skills*/
-	float: left;
-	margin-left: 110px;
-}
-
-
-#col3 {
-	float: left;
-	margin-left: 70px;
-}
-
-#about h2 {
-	font-size: 24px;
-}
-
-
-
-
-
-.circleFull {
-		width: 15px;
-	height: 15px;
-	background: #6380A6; 
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-	display: inline-block;
-	margin-left: 6px;
-	margin-bottom: 49px;
-	
-}
-
-.personalityBox {
-	background-color: rgba(46,62,88,1);
-	height: 50px;
-	width: 130px;
-    margin-left: 40px;
- 
-
-}
-
-.personalityBox2 {
-	background-color: #6589c2;
-	height: 50px;
-	width: 130px;
-	margin-left: 20px;
- 
-
-}
-
-
-
-#col3 label {
-	
-	color: white;
-	font-size: 20px;
-	text-align: right;
-	position: relative;
-	top: 7px;
-	left: 20px;
-	position: relative;
-	list-style-type: none;
-	font-family: kollektif;
-	line-height: 38px;
-}
-
-
-
-/*#stitchedContainer h2:after {
-	content: "Bethany Thielen";
-	font-family: kollektif;
-	font-weight: bold;
-    position: absolute;
-	width: 600px;
-	font-size: 60px;
-	left: 170px;
-	top: -7px;
-	color: black; */
-	
-
-
-}
-
 /*contact*/
 
 #headerContact h1 {
@@ -931,7 +822,6 @@ footer p {
 	text-align: center;
 	font-size: 18px;
 	font-family: Gudea-Regular;
-	text-align: center;
 	margin-top: 10px;
 	left: 35%;
 
@@ -940,50 +830,29 @@ footer p {
 
 @media screen and (max-width: 900px) {
 
-	#babyShower img 
-	{
-		height: 200px!important;
-		width: auto!important;
-		margin-right: 20px!important;
-		left: 5%!important;
 
-	}
 
-	.projectDescrip {
-	display: inline-block;
-	width: 50%;
-	position: relative;
-	height: 230px;
-	margin-left: 5%;
+#thymeforDinner {
 
+padding-bottom: 0;
 
 }
 
-
-@media screen and  (max-width: 450px) {
-
-	.uxSection img
-	{
-	
-		display: none!important;
-
-	}
-
-
-	.projectDescrip p {
-			font-size: 12px!important;
-	}
-
-	.projectDescrip  {
-	
-	
-		position: relative!important;
-	}
-
-
 }
+
 
 @media screen and (max-width: 796px) {
+
+
+
+	#babyShower img {
+	width: 50%;
+	margin-top: 20px;
+	margin-right: 25%;
+	margin-left: 25%;
+	float: left;
+	}
+
 #col3 label{
 
   background:#242B3E;
@@ -1002,7 +871,7 @@ footer p {
 
 #individualPage p {
 
-	font-size: 12px!important;
+	font-size: 15px!important;
 }
 
 .tabs label {
@@ -1012,8 +881,6 @@ font-size: 2.4vw;
 }
   
 }
-
-
 
 
 @media screen and (max-width: 500px) {
@@ -1027,6 +894,11 @@ color: #324775;
 
 }
 
+#thymeforDinner {
+
+padding-bottom: 5%;
+
+}
 
 	#vase {
 
@@ -1130,10 +1002,31 @@ color: #324775;
 
     }
 
-    #uhaul .projectDescrip {
+}
 
-    	height: 250px;
-    }
+
+@media screen and (max-width: 450px) {
+
+
+
+	.uxSection img
+	{
+	
+		display: none!important;
+
+	}
+
+
+	.projectDescrip p {
+			font-size: 12px!important;
+	}
+
+	.projectDescrip  {
+	
+	
+		position: relative!important;
+	}
+
 
 }
 

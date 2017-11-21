@@ -45,7 +45,7 @@
 
 
 #wrapper {
-	width: 75%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -84,50 +84,16 @@
 }
 
 
-h1 {
-	font-size: 7vw;
+h2 {
+	font-size: 5vw;
 	color: #2E3E58;
 	text-align: left;
 	font-family: Catamaran-Bold;
 	line-height: 1em;
 }
 
-#highlight h1 {
 
-	text-align: center;
-}
-
-
-#individualPage a {
-
-font-family: Catamaran-Medium;
-font-size: 2.5vw;
-color: #324775;
-
-}
-
-#individualPage a:visited {
-	color: #324775;
-}
-
-#individualPage a:nth-child(2) {
-
-font-family: Catamaran-Medium;
-float: right;
-}
-
-
-#linkContainer a {
-
-	z-index: 1;
-	width: 40%;
-	height: 90px;
-
-
-	
-}
-
- button {
+ #linkContainer button {
 	background: transparent;
 	border: 2px solid black;
 	width: auto;
@@ -140,7 +106,7 @@ float: right;
 
 }
 
-button:hover {
+#linkContainer button:hover {
 	color: #ff929c;
 	border: 2px solid #ff929c!important;
 }
@@ -148,7 +114,7 @@ button:hover {
 
 
 
-h2 {
+h3 {
 	font-size: 4vw;
 	color: #2E3E58;
 	text-align: center;
@@ -166,10 +132,10 @@ p {
 
 	font-size: 1.4em;
 	color: #757575;
-	text-align: justify;
+	text-align: left;
 	font-family: Catamaran-Regular;
-	max-width: 900px;
-	margin: 0 auto;
+	max-width: 1200px;
+	
 }
 
 
@@ -363,7 +329,7 @@ padding-top: 16px;
 	
 }
 
-#designLogo h2 {
+#designLogo h3 {
 	line-height: 1.7em;
 	color: white;
 	padding-top: 10px;
@@ -522,7 +488,7 @@ flex: 1;
 
 }
 
-#designLogo h2 {
+#designLogo h3 {
 
 	line-height: 3.7em;
 }

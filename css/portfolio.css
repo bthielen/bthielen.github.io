@@ -882,6 +882,24 @@ font-size: 2.4vw;
   
 }
 
+@media screen and (max-width: 680px) {
+
+
+#nextBar {
+
+	position: initial;
+	
+
+}
+
+#nextBar button {
+
+	font-size: 15px;
+	width: 130px;
+}
+
+}
+
 
 @media screen and (max-width: 500px) {
 
@@ -1008,6 +1026,11 @@ padding-bottom: 5%;
 @media screen and (max-width: 450px) {
 
 
+#nextBar button {
+
+	font-size: 12px;
+	width: 95px;
+}
 
 	.uxSection img
 	{

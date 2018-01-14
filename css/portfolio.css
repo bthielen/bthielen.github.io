@@ -556,12 +556,28 @@ padding-bottom: 30px;
 	overflow: hidden;
 }
 
+#solarSpell {
+	border-bottom: 2px solid black;
+    padding-bottom: 5%;
+}
+
 /*make widths and margins add up to 100% for each img*/
 
 #thymeforDinner img {
 
 
 	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+	margin-right: 0;
+	float: left;
+	
+}
+
+#solarSpell img {
+
+
+display: inline-block;
 	width: 100%;
 	margin-top: 20px;
 	margin-right: 0;

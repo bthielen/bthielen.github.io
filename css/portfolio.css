@@ -58,13 +58,19 @@
 	src: url(../fonts/Catamaran-Regular.ttf);
 }
 
+#wrapper {
+
+	background-color:; 
+	width: 100%;
+}
+
 .burger {
 	font-size: 5vw;
 	cursor:pointer;
-	left: 17.4em;
-	top: 1em;
+	left: 17.9em;
+	top: .6em;
 	position: absolute;
-	color: white;
+	color: #E5E5E5;
 
 }
 
@@ -136,14 +142,18 @@
 	color:  #6380A6;
 }
 
+
+body {
+
+	margin: 0px;
 }
-
-
 
 #imageWrapper {
 width: 100%;
-height: auto;
+height: 500px;
 position: relative;
+margin-bottom: -5px;
+
 
 }
 
@@ -151,6 +161,7 @@ position: relative;
 #headerImage {
 width: 100%;
 position: relative;
+overflow: hidden;
 
 }
 
@@ -327,7 +338,7 @@ float: right;
 #wrapper a:nth-child(2) {
 
 font-family: Catamaran-Medium;
-float: right;
+
 }
 
 
@@ -389,6 +400,12 @@ margin-top: 5%;
 
 	font-family: Catamaran-Medium;
 	font-size: 1.7vw;
+}
+
+.boldbodyText {
+
+	font-family: Catamaran-Bold!important;
+	font-size: 2.6vw!important;
 }
 
 
@@ -493,9 +510,9 @@ line-height: 60px;
 .uxSection button {
 	background: transparent;
 	border: 2px solid black;
-	width: 169px;
+	width: 190px;
 	font-family: Catamaran-Medium;
-	font-size: 16px;
+	font-size: 19px;
 	cursor: pointer;
 
 }
@@ -505,6 +522,7 @@ line-height: 60px;
 	color: #ff929c;
 	border: 2px solid #ff929c!important;
 }
+
 
 
 

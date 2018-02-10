@@ -1,0 +1,74 @@
+$hover: #BFBC82;
+
+
+/*makes header take up whole page */
+
+body {
+    margin: 0;
+}
+
+.burger {
+	font-size: 5vw;
+	cursor:pointer;
+	left: 17.9em;
+	top: .6em;
+	position: absolute;
+	color: #E5E5E5;
+
+}
+
+#headerImage {
+width: 100%;
+position: relative;
+overflow: hidden;
+
+}
+
+.hidden {
+	display: none;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #e5e5e5;
+    display: block;
+    transition: 0.3s;
+    font-family: Catamaran-Light;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+    color: $hover;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+

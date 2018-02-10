@@ -1,0 +1,43 @@
+
+
+#footerspace {
+  padding: 5px; }
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: $grey;
+  float: left;
+  clear: both;
+  margin: 0 auto;
+  text-align: center; }
+
+footer p {
+  color: #A5A5A5;
+  text-align: center;
+  font-size: 12px;
+  font-family: Gudea-Regular;
+  margin-top: 10px;
+  max-width: initial;
+  left: 35%; }
+
+  .socialIcons img{
+
+  padding: 20px 20px 10px 20px;
+  }
+
+  @media screen and (max-width: 390px) { 
+
+.socialIcons {
+
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 10px
+  }
+
+ .socialIcons img{
+
+      padding: 5px 20px 5px 20px;
+  }
+}
+

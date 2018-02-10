@@ -1,0 +1,60 @@
+.space {
+  height: 50px;
+  width: 1px; }
+
+strong {
+  color: white; }
+
+#highlight {
+  background-color: #1A1A1A;
+  padding-top: 1px;
+  width: 100%;
+  height: auto; }
+
+#highlight h1 {
+  text-align: center;
+  font-size: 7vw;
+  color: #2E3E58;
+  text-align: center;
+  font-family: Catamaran-Bold;
+  margin: 0px; }
+
+#nextBar {
+  background-color: #e4e4ef;
+  height: 33px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -2px;
+  z-index: 1;
+  margin-top: 4%; }
+
+#nextBar button {
+  background-color: #477B11;
+  border: none;
+  width: 200px;
+  color: white;
+  font-family: Catamaran-Medium;
+  height: 33px;
+  font-size: 20px;
+  cursor: pointer; }
+
+#nextBar a:nth-child(2) {
+  float: right; }
+
+@media screen and (max-width: 680px) {
+  #nextBar {
+    position: initial; }
+
+  #nextBar button {
+    font-size: 15px;
+    width: 130px; } }
+@media screen and (max-width: 500px) {
+  #nextBar button {
+    font-size: 17px;
+    width: 140px; } }
+@media screen and (max-width: 450px) {
+  #nextBar button {
+    font-size: 12.5px;
+    width: 103px; } }
+
+/*# sourceMappingURL=_nextbar.css.map */

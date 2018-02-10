@@ -1,3 +1,16 @@
+
+$green: #477B11;
+
+$grey: #1A1A1A; 
+
+$hover: #BFBC82;
+
+$lightgrey: #4F4F4F;
+
+@import 'header';
+@import 'nextbar';
+@import 'footer';
+
 @font-face {
 	font-family: Catamaran-Bold;
 	src: url(../fonts/Catamaran-Bold.ttf);
@@ -83,10 +96,18 @@
 
 }
 
+.wireframes {
+
+	width: 80%; 
+	max-width:1000px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
 
 h2 {
 	font-size: 5vw;
-	color: #2E3E58;
+	color: $green;
 	text-align: left;
 	font-family: Catamaran-Bold;
 	line-height: 1em;
@@ -116,7 +137,7 @@ h2 {
 
 h3 {
 	font-size: 4vw;
-	color: #2E3E58;
+	color: $green;
 	text-align: center;
 	font-family: Catamaran-Bold;
 	line-height: .5em;
@@ -157,12 +178,6 @@ p {
 	
 }
 
-
-}
-
-img {
-	width: 100%;
-}
 
 /*babyshower*/
 
@@ -347,23 +362,67 @@ top: -30px;
 }
 
 
-#mockups img {
+.mockupImages {
 
-	width: 100%;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	
 }
 
-#mockups p {
+.mockupDescrip p {
 
 	margin-bottom: 4%;
-	text-align: left;
+	text-align: right;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	
 }
 
+	.mockupDescrip img {
+
+		float: right;
+		width: 20%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}
+.mockupDescrip {
+
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+/*
+
+
+.mockupDescrip {
+
+	display: flex;
+	margin-bottom: 2%;
+	justify-content: center;
+
+}
+
+
+#mockups p {
+margin-bottom: 4%;
+	text-align: right;
+	width: 60%;
+	align-self: center;
+	margin-right: 4%;
+
+}
+
+#iphone1 {
+	width: 240px;
+align-self: center;
+}
 .uhaulMockups p {
 
-	margin-bottom: 1%!important;
 
+*/
 
-}
 
 #iphones {
 display: flex;
@@ -375,14 +434,25 @@ justify-content: space-around;
  
 }
 
-#iphones img {
+/*#iphones img {
 
 	width: 95%;
-}
+}*/
+
+
 
 
 
 @media (max-width: 1016px) {
+
+
+	.mockupDescrip img {
+
+		float: right;
+		width: 30%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}
 
 
 .museo {
@@ -400,10 +470,39 @@ justify-content: space-around;
 }
 						
 						
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
 
+.wireframes {
 
-{}
+	width: 100%;
+	margin: 0;
+}
+
+.mockupDescrip {
+
+	width: 100%;
+}
+
+.mockupImages {
+
+	width: 100%;
+	margin: 0;
+}
+
+#mockups p {
+
+	width: 100%;
+	display: inline;
+} 
+
+	.mockupDescrip img {
+
+		float: right;
+		width: 30%;
+		display: inline;
+		padding: none;
+		margin-bottom: none;
+	}
 
 button {
 
@@ -412,7 +511,7 @@ button {
 
 h2 {
 	font-size: 5.4vw;
-	color: #2E3E58;
+	color: $green;
 	text-align: center;
 	font-family: Catamaran-Bold;
 	line-height: 1em;
@@ -517,7 +616,7 @@ flex: 1;
 		}
 
 		#babyshowersketchdescrip {
-			float: none!;
+			float: none;
 			width: 100%;
 		}
 
@@ -572,3 +671,31 @@ align-items: center;
 }
 
 }
+
+@media screen and (max-width: 450px) {
+
+#mockupDescrip {
+
+	display: initial;
+
+}
+#mockups p {
+
+	width: 100%;
+	display: block;
+	text-align: left;
+} 
+
+	.mockupDescrip img {
+
+		float: initial;
+		width: 70%;
+		display: inline;
+		padding: none;
+		margin-right: 10%;
+		margin-left: 10%;
+
+
+}
+
+} 

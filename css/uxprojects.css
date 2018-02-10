@@ -1,0 +1,601 @@
+/*makes header take up whole page */
+body {
+  margin: 0; }
+
+.burger {
+  font-size: 5vw;
+  cursor: pointer;
+  left: 17.9em;
+  top: .6em;
+  position: absolute;
+  color: #E5E5E5; }
+
+#headerImage {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.hidden {
+  display: none; }
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s; }
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px; }
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #e5e5e5;
+  display: block;
+  transition: 0.3s;
+  font-family: Catamaran-Light; }
+
+.overlay a:hover, .overlay a:focus {
+  color: #BFBC82; }
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px; }
+
+.space {
+  height: 50px;
+  width: 1px; }
+
+strong {
+  color: white; }
+
+#highlight {
+  background-color: #1A1A1A;
+  padding-top: 1px;
+  width: 100%;
+  height: auto; }
+
+#highlight h1 {
+  text-align: center;
+  font-size: 7vw;
+  color: #2E3E58;
+  text-align: center;
+  font-family: Catamaran-Bold;
+  margin: 0px; }
+
+#nextBar {
+  background-color: #e4e4ef;
+  height: 33px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -2px;
+  z-index: 1;
+  margin-top: 4%; }
+
+#nextBar button {
+  background-color: #477B11;
+  border: none;
+  width: 200px;
+  color: white;
+  font-family: Catamaran-Medium;
+  height: 33px;
+  font-size: 20px;
+  cursor: pointer; }
+
+#nextBar a:nth-child(2) {
+  float: right; }
+
+@media screen and (max-width: 680px) {
+  #nextBar {
+    position: initial; }
+
+  #nextBar button {
+    font-size: 15px;
+    width: 130px; } }
+@media screen and (max-width: 500px) {
+  #nextBar button {
+    font-size: 17px;
+    width: 140px; } }
+@media screen and (max-width: 450px) {
+  #nextBar button {
+    font-size: 12.5px;
+    width: 103px; } }
+#footerspace {
+  padding: 5px; }
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #1A1A1A;
+  float: left;
+  clear: both;
+  margin: 0 auto;
+  text-align: center; }
+
+footer p {
+  color: #A5A5A5;
+  text-align: center;
+  font-size: 12px;
+  font-family: Gudea-Regular;
+  margin-top: 10px;
+  max-width: initial;
+  left: 35%; }
+
+.socialIcons img {
+  padding: 20px 20px 10px 20px; }
+
+@media screen and (max-width: 390px) {
+  .socialIcons {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px; }
+
+  .socialIcons img {
+    padding: 5px 20px 5px 20px; } }
+@font-face {
+  font-family: Catamaran-Bold;
+  src: url(../fonts/Catamaran-Bold.ttf); }
+@font-face {
+  font-family: Catamaran-Medium;
+  src: url(../fonts/Catamaran-Medium.ttf); }
+@font-face {
+  font-family: Catamaran-Black;
+  src: url(../fonts/Catamaran-Black.ttf); }
+@font-face {
+  font-family: Catamaran-ExtraLight;
+  src: url(../fonts/Catamaran-ExtraLight.ttf); }
+@font-face {
+  font-family: Catamaran-Light;
+  src: url(../fonts/Catamaran-Light.ttf); }
+@font-face {
+  font-family: Catamaran-Regular;
+  src: url(../fonts/Catamaran-Regular.ttf); }
+@font-face {
+  font-family: Museo-Slab;
+  src: url(../fonts/Museo_Slab_500.otf); }
+@font-face {
+  font-family: bebas;
+  src: url(../fonts/bebas.otf); }
+#wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
+.persona {
+  max-width: 900px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  float: right;
+  width: 40%;
+  max-width: 400px;
+  padding: 2%; }
+
+#personaText {
+  float: left;
+  width: 50%; }
+
+#restofText {
+  clear: both; }
+
+#uhaulHeader button {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  display: inline;
+  margin: 30px;
+  cursor: hand; }
+
+.wireframes {
+  width: 80%;
+  max-width: 1000px;
+  margin-right: 10%;
+  margin-left: 10%; }
+
+h2 {
+  font-size: 5vw;
+  color: #477B11;
+  text-align: left;
+  font-family: Catamaran-Bold;
+  line-height: 1em; }
+
+#linkContainer button {
+  background: transparent;
+  border: 2px solid black;
+  width: auto;
+  font-family: Catamaran-Medium;
+  font-size: 25px;
+  cursor: pointer;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+#linkContainer button:hover {
+  color: #ff929c;
+  border: 2px solid #ff929c !important; }
+
+h3 {
+  font-size: 4vw;
+  color: #477B11;
+  text-align: center;
+  font-family: Catamaran-Bold;
+  line-height: .5em; }
+
+.bold {
+  font-family: Catamaran-Bold;
+  font-size: 1.5em;
+  padding-bottom: 1em; }
+
+p {
+  font-size: 1.4em;
+  color: #757575;
+  text-align: left;
+  font-family: Catamaran-Regular;
+  max-width: 1200px; }
+
+.uhaulRole {
+  float: left;
+  width: 45%; }
+
+#uhaulPalette {
+  float: right;
+  width: 45%; }
+
+#uhaulcreativeProcess {
+  clear: both; }
+
+/*babyshower*/
+.babyshowersketch {
+  width: 35%;
+  float: right;
+  margin-bottom: 3%; }
+
+#babyshowermockups img {
+  width: 32%;
+  display: inline-block; }
+
+#babyshowermockups {
+  clear: both; }
+
+#babyshowersketchdescrip {
+  width: 45%;
+  float: left; }
+
+/*THYME FOR DINNER*/
+#designHeader img {
+  width: 100%; }
+
+#designHeader {
+  line-height: 0;
+  margin-bottom: -10px; }
+
+#designandTypefaces {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  flex-direction: row; }
+
+#designColors {
+  width: 50%;
+  background-color: white;
+  flex: 1; }
+
+#designTypefaces {
+  width: 50%;
+  background-color: #e4e4e4;
+  flex: 1; }
+
+#typefacesContainer {
+  padding: 4%; }
+
+.museo {
+  font-family: Museo-Slab, arial, sans-serif;
+  font-size: 3.8em;
+  color: #565656;
+  margin: 0; }
+
+.bebas {
+  font-family: bebas, arial, sans-serif;
+  font-size: 2.4em;
+  color: #565656;
+  margin: 0;
+  padding-bottom: 9px; }
+
+.openSans {
+  font-family: 'Open-Sans', arial, sans-serif;
+  color: #565656;
+  font-size: .8em;
+  margin: 0; }
+
+.typefaceDescription {
+  font-family: 'Open-Sans', arial, sans-serif;
+  color: #d85300;
+  padding-bottom: 3.5%;
+  font-size: 1.4vw; }
+
+#grey {
+  width: 100%;
+  height: 60px;
+  background-color: #565656;
+  display: -webkit-flex;
+  display: -ms-flexbox; }
+
+#orange {
+  width: 100%;
+  height: 60px;
+  background-color: #d85300;
+  display: -webkit-flex;
+  display: -ms-flexbox; }
+
+#lightGrey {
+  width: 100%;
+  height: 60px;
+  background-color: #e4e4e4;
+  display: -webkit-flex;
+  display: -ms-flexbox; }
+
+#designColors p {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3%; }
+
+#lightGrey p {
+  color: black; }
+
+#designLogo {
+  background-color: #565656;
+  position: relative;
+  top: -50px; }
+
+#designLogo h3 {
+  line-height: 1.7em;
+  color: white;
+  padding-top: 10px; }
+
+#designLogo img {
+  width: 100%;
+  position: relative;
+  top: -30px; }
+
+.mockupImages {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%; }
+
+.mockupDescrip p {
+  margin-bottom: 4%;
+  text-align: right;
+  padding-top: 10%;
+  padding-bottom: 10%; }
+
+.mockupDescrip img {
+  float: right;
+  width: 20%;
+  margin-left: 5%;
+  margin-bottom: 5%; }
+
+.mockupDescrip {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%; }
+
+/*
+
+
+.mockupDescrip {
+
+	display: flex;
+	margin-bottom: 2%;
+	justify-content: center;
+
+}
+
+
+#mockups p {
+margin-bottom: 4%;
+	text-align: right;
+	width: 60%;
+	align-self: center;
+	margin-right: 4%;
+
+}
+
+#iphone1 {
+	width: 240px;
+align-self: center;
+}
+.uhaulMockups p {
+
+
+*/
+#iphones {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: space-around; }
+
+/*#iphones img {
+
+	width: 95%;
+}*/
+@media (max-width: 1016px) {
+  .mockupDescrip img {
+    float: right;
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 5%; }
+
+  .museo {
+    font-size: 2.5em; }
+
+  .bebas {
+    font-size: 1.7em; } }
+@media screen and (max-width: 700px) {
+  .wireframes {
+    width: 100%;
+    margin: 0; }
+
+  .mockupDescrip {
+    width: 100%; }
+
+  .mockupImages {
+    width: 100%;
+    margin: 0; }
+
+  #mockups p {
+    width: 100%;
+    display: inline; }
+
+  .mockupDescrip img {
+    float: right;
+    width: 30%;
+    display: inline;
+    padding: none;
+    margin-bottom: none; }
+
+  button {
+    font-size: 3vw; }
+
+  h2 {
+    font-size: 5.4vw;
+    color: #477B11;
+    text-align: center;
+    font-family: Catamaran-Bold;
+    line-height: 1em; }
+
+  #personaText {
+    float: none;
+    width: auto; }
+
+  #branding {
+    clear: none; }
+
+  #restofText {
+    clear: none; }
+
+  .persona {
+    float: none; }
+
+  #designandTypefaces {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: white;
+    flex-direction: column; }
+
+  #designColors {
+    width: 100%;
+    background-color: white;
+    height: 10em;
+    flex: 1; }
+
+  #designTypefaces {
+    width: 100%;
+    height: 350px;
+    background-color: #e4e4e4;
+    flex: 1; }
+
+  .museo {
+    font-size: 7.2vw; }
+
+  .bebas {
+    font-family: bebas, arial, sans-serif;
+    font-size: 5.6vw;
+    color: #565656; }
+
+  .openSans {
+    font-family: 'Open-Sans', arial, sans-serif;
+    color: #565656;
+    font-size: 1em; }
+
+  #designLogo {
+    margin-top: 80px;
+    position: initial;
+    top: 0px; }
+
+  #designLogo h3 {
+    line-height: 3.7em; }
+
+  /*BABY SHOWER*/
+  #babyshowermockups img {
+    width: 100%;
+    display: block; }
+
+  .babyshowersketch {
+    width: 100%; }
+
+  #babyshowersketchdescrip {
+    float: none;
+    width: 100%; }
+
+  p {
+    font-size: 1em; }
+
+  .typefaceDescription {
+    font-family: 'Open-Sans', arial, sans-serif;
+    color: #d85300;
+    padding-bottom: 3.5%;
+    font-size: .7em; }
+
+  .bold {
+    font-size: 1.2em;
+    text-align: left; }
+
+  .persona {
+    max-width: none;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    float: right;
+    width: 90%;
+    max-width: 400px;
+    padding: 10px; }
+
+  #iphones {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+  #iphone1, #iphone2, #iphone3 {
+    align-self: center;
+    width: 75%; } }
+@media screen and (max-width: 450px) {
+  #mockupDescrip {
+    display: initial; }
+
+  #mockups p {
+    width: 100%;
+    display: block;
+    text-align: left; }
+
+  .mockupDescrip img {
+    float: initial;
+    width: 70%;
+    display: inline;
+    padding: none;
+    margin-right: 10%;
+    margin-left: 10%; } }
+
+/*# sourceMappingURL=uxprojects.css.map */

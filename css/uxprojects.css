@@ -173,6 +173,31 @@ footer p {
   width: 80%;
   margin: 0 auto; }
 
+.button-flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2px; }
+
+.button-flex-item {
+  flex: 2; }
+
+.button {
+  background: #477B11;
+  border: 2px solid white;
+  color: white;
+  width: 100%;
+  height: 55px;
+  font-family: Catamaran-Medium;
+  font-size: 19px;
+  cursor: pointer;
+  flex: 2; }
+
+/*this makes the buttons  hover*/
+button:hover {
+  border: 4px solid #477B11;
+  color: white; }
+
 .persona {
   max-width: 900px;
   position: relative;
@@ -447,6 +472,9 @@ align-self: center;
   .bebas {
     font-size: 1.7em; } }
 @media screen and (max-width: 700px) {
+  .button {
+    font-size: 14px; }
+
   .wireframes {
     width: 100%;
     margin: 0; }
@@ -581,6 +609,26 @@ align-self: center;
   #iphone1, #iphone2, #iphone3 {
     align-self: center;
     width: 75%; } }
+@media screen and (max-width: 550px) {
+  .button-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2px; }
+
+  .button-flex-item {
+    flex: 2; }
+
+  .button {
+    border: 2px solid white;
+    color: white;
+    width: 100%;
+    height: 55px;
+    font-family: Catamaran-Medium;
+    font-size: 19px;
+    cursor: pointer;
+    flex: 2; } }
 @media screen and (max-width: 450px) {
   #mockupDescrip {
     display: initial; }
@@ -596,6 +644,9 @@ align-self: center;
     display: inline;
     padding: none;
     margin-right: 10%;
-    margin-left: 10%; } }
+    margin-left: 10%; }
+
+  h2 {
+    font-size: 9vw; } }
 
 /*# sourceMappingURL=uxprojects.css.map */

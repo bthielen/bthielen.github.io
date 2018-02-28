@@ -383,7 +383,8 @@ line-height: 60px;
 
 .uxSection button {
 	background: transparent;
-	border: 2px solid black;
+	border: 2px solid $grey;
+	color: $grey;
 	width: 190px;
 	font-family: Catamaran-Medium;
 	font-size: 19px;
@@ -395,8 +396,8 @@ line-height: 60px;
 
 
 .projectDescrip button:hover {
-	background-color: $hover;
-	border: 2px solid $hover!important;
+	background-color: $grey;
+	border: 2px solid $grey!important;
 	color: white;
 }
 

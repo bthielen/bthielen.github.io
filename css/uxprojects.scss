@@ -63,6 +63,51 @@ $lightgrey: #4F4F4F;
 }
 
 
+.button-flex-container {
+
+	display: flex;
+	justify-content: space-between; 
+	width: 100%;
+	margin-top: 2px;
+
+}
+
+.button-flex-item {
+
+	flex: 2;
+
+
+}
+
+
+
+.button {
+	background: $green;
+	border: 2px solid white;
+	color: white;
+	width: 100%;
+	height: 55px;
+	font-family: Catamaran-Medium;
+	font-size: 19px;
+	cursor: pointer;
+	flex: 2;
+
+
+}
+
+
+
+
+/*this makes the buttons  hover*/
+
+
+button:hover {
+
+	border: 4px solid $green;
+	color: white;
+}
+
+
 .persona {
 	
 	max-width: 900px;
@@ -472,6 +517,11 @@ justify-content: space-around;
 						
 @media screen and (max-width: 700px) {
 
+.button {
+
+	font-size: 14px;
+}
+
 .wireframes {
 
 	width: 100%;
@@ -672,6 +722,48 @@ align-items: center;
 
 }
 
+
+
+@media screen and (max-width: 550px) {
+
+
+.button-flex-container {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; 
+	width: 100%;
+	margin-top: 2px;
+
+}
+
+.button-flex-item {
+
+	flex: 2;
+
+
+}
+
+
+
+.button {
+	
+	border: 2px solid white;
+	color: white;
+	width: 100%;
+	height: 55px;
+	font-family: Catamaran-Medium;
+	font-size: 19px;
+	cursor: pointer;
+	flex: 2;
+
+
+}
+
+
+
+}
+
 @media screen and (max-width: 450px) {
 
 #mockupDescrip {
@@ -698,4 +790,10 @@ align-items: center;
 
 }
 
+h2 {
+
+font-size: 9vw;
+
 } 
+
+}

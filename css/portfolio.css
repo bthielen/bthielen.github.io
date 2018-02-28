@@ -18,6 +18,7 @@ footer p {
   font-size: 12px;
   font-family: Gudea-Regular;
   margin-top: 10px;
+  max-width: initial;
   left: 35%; }
 
 .socialIcons img {
@@ -200,6 +201,10 @@ textarea {
   text-align: center;
   font-weight: bold; }
 
+/*makes header take up whole page */
+body {
+  margin: 0; }
+
 .burger {
   font-size: 5vw;
   cursor: pointer;
@@ -207,6 +212,11 @@ textarea {
   top: .6em;
   position: absolute;
   color: #E5E5E5; }
+
+#headerImage {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
 
 .hidden {
   display: none; }
@@ -359,11 +369,6 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 30px; }
-
-#headerImage {
-  width: 100%;
-  position: relative;
-  overflow: hidden; }
 
 body {
   background-color: #F2F1FF; }
@@ -547,7 +552,8 @@ label:hover {
 
 .uxSection button {
   background: transparent;
-  border: 2px solid black;
+  border: 2px solid #1A1A1A;
+  color: #1A1A1A;
   width: 190px;
   font-family: Catamaran-Medium;
   font-size: 19px;
@@ -555,8 +561,8 @@ label:hover {
 
 /*this makes the buttons in the UX section hover*/
 .projectDescrip button:hover {
-  background-color: #BFBC82;
-  border: 2px solid #BFBC82 !important;
+  background-color: #1A1A1A;
+  border: 2px solid #1A1A1A !important;
   color: white; }
 
 .uximgContainer {

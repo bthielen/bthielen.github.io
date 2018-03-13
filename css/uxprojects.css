@@ -173,6 +173,28 @@ footer p {
   width: 80%;
   margin: 0 auto; }
 
+/*SOLARSPELL PAGE*/
+.original-mockups-flex-container {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; }
+
+.original-mockups-flex-box img {
+  width: 95%;
+  border: 1.5px solid gray;
+  margin-left: 2.5%;
+  margin-right: 2.5%; }
+
+li p {
+  margin: 0;
+  padding: 3px; }
+
+.original-mockups-flex-box li {
+  list-style-image: url(../images/x.png); }
+
+/*END SOLARSPELL*/
 .button-flex-container {
   display: flex;
   justify-content: space-between;
@@ -409,7 +431,7 @@ p {
 
 .mockupDescrip img {
   float: right;
-  width: 20%;
+  width: 27%;
   margin-left: 5%;
   margin-bottom: 5%; }
 
@@ -418,51 +440,23 @@ p {
   margin-right: 5%;
   margin-left: 5%; }
 
-/*
-
-
-.mockupDescrip {
-
-	display: flex;
-	margin-bottom: 2%;
-	justify-content: center;
-
-}
-
-
-#mockups p {
-margin-bottom: 4%;
-	text-align: right;
-	width: 60%;
-	align-self: center;
-	margin-right: 4%;
-
-}
-
-#iphone1 {
-	width: 240px;
-align-self: center;
-}
-.uhaulMockups p {
-
-
-*/
-#iphones {
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  justify-content: space-around; }
-
-/*#iphones img {
-
-	width: 95%;
-}*/
 @media (max-width: 1016px) {
+  .original-mockups-flex-container {
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column; }
+
+  .original-mockups-flex-box img {
+    width: 95%;
+    border: 1.5px solid gray;
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
+
   .mockupDescrip img {
     float: right;
-    width: 30%;
+    width: 34%;
     margin-left: 5%;
     margin-bottom: 5%; }
 
@@ -484,7 +478,9 @@ align-self: center;
 
   .mockupImages {
     width: 100%;
-    margin: 0; }
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 3%; }
 
   #mockups p {
     width: 100%;
@@ -492,7 +488,7 @@ align-self: center;
 
   .mockupDescrip img {
     float: right;
-    width: 30%;
+    width: 40%;
     display: inline;
     padding: none;
     margin-bottom: none; }

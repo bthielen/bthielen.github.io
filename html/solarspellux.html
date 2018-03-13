@@ -1,0 +1,210 @@
+<!doctype html> 
+<html lang="en">
+	<head>
+		<title>Bethany Thielen Home</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/uxprojects.css">
+		
+	    <link rel="icon" type="image/ico" href="images/favicon.ico"/> 
+		<link href="https://fonts.googleapis.com/css?family=Catamaran:400,800,900" rel="stylesheet">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	    <script src="../js/index.js"></script>
+	     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	     <script src="https://use.fontawesome.com/fa1aa8f243.js"></script>
+	    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	</head> 
+	
+		<header>
+
+			<div id="imageWrapper">	
+
+				<img id="headerImage" src="images/headerimage.png" alt="headerimage">
+
+				<div class="burger" onclick="openNav()">&#9776;</div>
+		
+			</div>
+		
+
+		<div id="myNav" class="overlay">
+		 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		 	 <div class="overlay-content">
+			    <a href="index.html"><span id="currentPage">Portfolio</span></a>
+			    <a href="contact.html">Contact</a>
+			    <a href="resume.html">Resume</a>
+		 	 </div>
+			</div>
+
+	
+		</header>
+
+		<body>
+
+			<main>
+
+			<div id="wrapper">
+
+
+				<div id="nextBar">
+
+					<a href="index.html" id="ref"> <button id="galleryButton"><span class="fa fa-angle-left" aria-hidden="true"></span> Back to Gallery</button> </a>
+
+					<a href="babyshower.html#ref"> <button id="galleryButton">Next Project <span class="fa fa-angle-right" aria-hidden="true"></span></button> </a>
+				</div> 
+				 
+				<div id="highlight"><h1> <strong>SolarSPELL</strong></h1></div>
+
+				<!--the buttons-->
+
+
+				<div class="button-flex-container">
+
+						<div class="button-flex-item">
+							<a href="solarspellbanners.html"><button class="button">See Branding Designs</button> </a> 
+						</div>
+
+						<div class="button-flex-item">
+							<a href="#uhaulcreativeProcess"><button class="button">Jump To UX Process</button> </a> 
+						</div>
+
+							<div class="button-flex-item">
+							<a href="#mockups"><button class="button">Jump To UI Process</button> </a> 
+						</div>
+
+				</div>
+
+				<!--end buttons-->
+	
+
+				<h2> design challenge </h2>
+				<p class="bold">SolarSPELL is non-profit project, bringing a solar-powered learning library to kids in developing countries. This library looks and acts like a normal webpage but is hosted offline, allowing it to be used without wifi. I redesigned the project's entire interface to make it more usable to our target audience.</p>
+				
+		 		
+				<h2>the original site</h2>
+
+				<div class="original-mockups-flex-container">
+					<div class="original-mockups-flex-box">
+						<h3>home page</h3>
+						<img src="images/solarspellhomeoriginal.png">
+						<ul>
+							<li><p>No search bar present</p></li>
+							<li><p>Navigation bar, hero image and content are adhered to 3 different margins, visually off-balancing the site</p></li>
+							<li><P>The topic buttons section was not labeled with a heading, making its purpose confusing</p></li>
+							<li><p>The buttons had an inconsistent visual reinforcement, as they displayed 4 different icons per subject</p></li>
+						
+						</ul>
+					</div>
+					<div class="original-mockups-flex-box">
+						<h3>content page</h3>
+						<img src="images/solarspellcontentoriginal.png">
+							<ul>
+							<li><p class="test1">A search bar was embedded in each page, making it unclear what results the search bar could actually return</p></li>
+							<li><p>Folders were marked by a tiny icon and blended with the rest of the content</p></li>
+							<li><p>Content was not organized by type (document, audio, etc.), causing all types of files to be scrambled together</p></li>
+							<li><p>Content was displayed as links, making it difficult for children's fingers to click</p></li>
+							
+						</ul>
+					</div>
+				</div>
+				<h2>personas</h2>
+
+
+				<p>My target user group are children, community members and Peace Corp volunteers residing in developing countries. These countries are Samoa, Puerto Rico, Fiji, Vanuatu and Rwanda with more countries added every year. The SolarSPELL is distributed to elementary schools and high schools. The majority of the target users speak some English and can be expected to have low technical literacy, as few schools have computers. </p>
+
+		
+
+			<h2 id="uhaulcreativeProcess">my ux process</h2>
+
+			<img class="wireframes" src="images/solarspellwireframes.png" alt="mockup process">
+
+			<h2>the interface</h2>
+
+			<div id="mockups">
+
+
+				<h3>homepage</h3>
+
+				<div class="mockupDescrip">
+
+					<img src="images/solarspellmobilehome.png" alt="iphone1">
+
+					<p>I placed the search bar on top of the banner image on mobile, integrating it with the visually-appealing background in a way that would allow the search bar's placement to carry over to the content pages without the lower section of the banner. 
+				
+					<br> 
+					<br>
+					I gave the topics in the navigation bar room to breath by relocating the logo and text to their own row at the top of the screen. This will allow for growth if future topics are added. I added a universal search bar on the upper-right corner. I designed the site's color scheme of blue to fit exactly with the blue of the sky inside the banner and all future banners, allowing the colors to transition seamlessly. I kept the concept of using icon-buttons as quick links to each topic, but I gave each topic its own icon.</p>
+
+				</div>
+
+				<img class="mockupImages" src="images/solarspellhome.png" alt="mockup1">
+				
+
+				<h3>drop-down navigation</h3>
+				
+				<div class="mockupDescrip">
+
+					<img src="images/solarspellmobilemenu.png" alt="iphone2">
+
+					<p>I used the custom icons that previously appeared on the home page as the navigation links on the mobile version. I made the menu slide in from the side and retain some transparency to show the screen behind it to avoid confusing young users by making them think they navigated to another page.
+
+					<br> 
+					<br>
+
+					I used the transparent gradient effect in both the desktop and mobile drop-downs, upholding visual consistency.</p>
+
+				</div>
+
+
+
+				<img  class="mockupImages" src="images/solarspellmenu.png" alt="mockup2">
+
+				<h3>content page</h3>
+				<div class="mockupDescrip">
+					<img src="images/solarspellmobileaccordionclosed.png" alt="iphone3">
+					<p>This mobile view shows the category accordion closed. I retained the mobile search bar's transparency to show the sun and mountains behind it, but cropped the banner after the search bar. I arranged the controls in rows, distinguishing each row with a different background color.
+					<br>
+					<br>
+					I reimagined the filter system as inviting, clickable buttons instead of cold checkboxes, adding a slight shadow to each button to emphasize its clickable nature. The shadow turns into a subtle highlight and the button changes color when pressed. I retained the banner as a backdrop to the filters, creating smooth consistency between the homepage and content pages. I made each result a clickable box with an icon showing its filetype and gave each file section a header with the same icon.</p>
+				
+				</div>
+				<img  class="mockupImages" src="images/solarspellmockups1.png" alt="mockup3">
+
+				<h3>content page - refining results</h3>
+				<div class="mockupDescrip">
+					<img src="images/solarspellmobileaccordionopen.png" alt="iphone4">
+					<p>This mobile view shows the category accordion when clicked. When the user clicks a filter (Natural Habitat) with sub-categories, mobile tabs appear, which are easily switched between the top-level category and Natural Habitat's sub-categories. I retained the concept of filters as buttons from desktop, stacking them in rows according to their width.
+
+					<br>
+					<br>
+					When the user clicks a filter "Natural Habitat" that contains sub-category, the title "Environment Categories" that was previously centered, turns into a tab that can be toggled back and forth.</p>
+				
+				</div>
+				<img  class="mockupImages" src="images/solarspellmockups2.png" alt="mockup4">
+
+					
+			</div>
+
+
+		</div>
+
+
+
+				
+
+			</main> 
+			<footer>
+			<div class="socialIcons">
+
+				<a href="https://www.linkedin.com/in/bethanythielen/" target="_blank">	<img src="images/linkedin.png" alt="social1"> </a>
+				<a href="https://www.facebook.com/bethany.thielen" target="_blank"><img src="images/facebook.png"></a>
+				<a href="https://www.instagram.com/bethany.meishal/" target="_blank"><img src="images/instagram.png"> </a>
+				<a href="https://www.pinterest.com/blondemomentum/" target="_blank"><img src="images/pinterest.png"></a>
+
+			</div>
+
+				<p>Copyright Bethany Thielen &copy; 2018 All Rights Reserved</p>
+
+		</footer>
+		</div>
+	</body>
+</html>

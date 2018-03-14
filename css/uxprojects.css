@@ -292,6 +292,9 @@ p {
   font-family: Catamaran-Regular;
   max-width: 1200px; }
 
+.in-text-emphasis {
+  font-family: Catamaran-Bold; }
+
 .uhaulRole {
   float: left;
   width: 45%; }

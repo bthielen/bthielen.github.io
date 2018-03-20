@@ -107,11 +107,15 @@ strong {
     width: 130px; } }
 @media screen and (max-width: 500px) {
   #nextBar button {
-    font-size: 17px;
-    width: 140px; } }
+    font-size: 18.5px;
+    width: 140px;
+    height: 47px; }
+
+  #nextBar {
+    height: 47px; } }
 @media screen and (max-width: 450px) {
   #nextBar button {
-    font-size: 12.5px;
+    font-size: 15px;
     width: 103px; } }
 #footerspace {
   padding: 5px; }

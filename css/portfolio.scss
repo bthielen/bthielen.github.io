@@ -1,13 +1,13 @@
 
 /*variables*/
 
-$green: #477B11;
+$purple: #705d9b;
 
-$grey: #1A1A1A; 
+$blue: #4e728b;
 
-$hover: #BFBC82;
+$grey: #191919;
 
-$lightgrey: #4F4F4F;
+
 
 /*import*/
 
@@ -16,12 +16,6 @@ $lightgrey: #4F4F4F;
 @import 'header';
 @import 'nextbar';
 
-
-#currentPage {
-
-	border-bottom: 2px solid $green;
-
-}
 
 
 @font-face {
@@ -75,7 +69,19 @@ $lightgrey: #4F4F4F;
 	src: url(../fonts/Catamaran-Regular.ttf);
 }
 
+@font-face {
+	font-family: Brownhill-Script;
+	src: url(../fonts/Brownhill-Script.ttf);
+}
 
+
+
+#wrapper {
+
+	background-color: white;
+	z-index: 2;
+	position: relative;
+}
 
 #section2 {
 	margin: 0 auto;
@@ -92,7 +98,10 @@ $lightgrey: #4F4F4F;
 }
 
 .titleColor {
-	color:  $green;
+  background: -webkit-linear-gradient(left, #586c90, #a739b3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5.5%;
 }
 
 
@@ -171,7 +180,7 @@ body {
 
 /*changes color of selected tab*/
 .tabs input[type="radio"]:checked + label {
-	border-bottom: 4px solid $green;
+	border-bottom: 4px solid $purple;
 	background: transparent;
 }
 .tabs input[type="radio"]:checked + label + .tab {
@@ -187,7 +196,7 @@ body {
 
 
 label:hover{
-  border-bottom: 3px solid  $hover;
+  border-bottom: 3px solid  $grey;
 
 }
 
@@ -202,10 +211,11 @@ label:hover{
 #individualPage h2 {
 
 	font-size: 7vw;
-	color: $green;
+	color: $purple;
 	text-align: left;
 	font-family: Catamaran-Bold;
 	line-height: 1em;
+
 
 }
 
@@ -383,9 +393,11 @@ line-height: 60px;
 
 
 .uxSection button {
-	background: transparent;
-	border: 2px solid $grey;
-	color: $grey;
+	background-color: $purple;
+	border: 2px solid $purple!important;
+	color: white;	background-color: $purple;
+	border: 2px solid $purple!important;
+	color: white;
 	width: 190px;
 	font-family: Catamaran-Medium;
 	font-size: 19px;
@@ -397,9 +409,10 @@ line-height: 60px;
 
 
 .projectDescrip button:hover {
-	background-color: $grey;
-	border: 2px solid $grey!important;
-	color: white;
+
+		background: transparent;
+	border: 2px solid $purple;
+	color: $purple;
 }
 
 
@@ -423,7 +436,7 @@ line-height: 60px;
 
 .projectDescrip h3 {
 
-	color: $hover;
+	color: $blue;
 	font-family: Catamaran-Medium;
 	margin: 2px;
 }
@@ -696,7 +709,7 @@ padding-bottom: 5%;
 
 }
 
-	#vase {
+#vase {
 
 	width: 24%!important;
 	height: auto;
@@ -782,7 +795,7 @@ padding-bottom: 5%;
     width: 100%;
     margin: 0px !important;
     border-bottom: 2px solid #6380A6 !important;
-    background-color: $green;
+    background-color: $purple;
     padding: 9px !important;
     font-size: 3vw !important;
 }
@@ -790,13 +803,6 @@ padding-bottom: 5%;
 
     	background-color: $grey;
     	color: white;
-    }
-
-    .burger {
-    	left: 12.2em;
-    	font-size: 7vw;
-
-
     }
 
 }

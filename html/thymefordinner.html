@@ -9,40 +9,52 @@
 		<link href="https://fonts.googleapis.com/css?family=Catamaran:400,800,900" rel="stylesheet">
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	    <script src="../js/index.js"></script>
-	     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	     <script src="https://use.fontawesome.com/fa1aa8f243.js"></script>
-	    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	</head> 
-	
-		<header>
 
-			<div id="imageWrapper">	
-
-				<img id="headerImage" src="images/headerimage.png" alt="headerimage">
-
-				<div class="burger" onclick="openNav()">&#9776;</div>
 		
-			</div>
-		
+	<header>
 
-		<div id="myNav" class="overlay">
-		 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		 	 <div class="overlay-content">
-			    <a href="index.html"><span id="currentPage">Portfolio</span></a>
-			    <a href="contact.html">Contact</a>
-			    <a href="resume.html">Resume</a>
-		 	 </div>
-			</div>
+
+		<h1 class="hidden">Bethany Thielen's design portfolio</h1>
 
 	
-		</header>
+
+		<nav>
+			<ul>
+				<li class="current-page"><a href="index/htm"l>Portfolio</a></li>
+				<li><a href="contact.html">Contact & About</a></li>
+				<li><a href="resume.html">Resume</a></li>
+			</ul>
+		</nav>
+
+
+		<div class="header-text">
+
+			<img src="images/name.svg">
+			<p>UX/UI. Graphic Design. Web Development.</p>
+		</div>
+	
+	</header>
 
 		<body>
 
+			<div class="wave"><img src="images/wave.svg"></div>
+
 			<main>
 
-			<div id="wrapper">
+				<div id="wrapper">
 
+
+					<div class="burger hidden-on-desktop" onclick="openNav()">&#9776;</div>
+
+					<div id="myNav" class="overlay">
+				 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					 	 <div class="overlay-content">
+						    <a href="index.html"><span id="currentPage">Portfolio</span></a>
+						    <a href="contact.html">Contact</a>
+						    <a href="resume.html">Resume</a>
+					 	 </div>
+					</div>
 
 				<div id="nextBar">
 

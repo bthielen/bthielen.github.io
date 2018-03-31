@@ -4,7 +4,8 @@ $grey: #1A1A1A;
 $lightgrey: #4F4F4F;
 
 
-$green: #477B11;
+$purple: #705d9b;
+
 
 .space {
 
@@ -52,12 +53,12 @@ height: auto;
     top: -2px; 
 
     z-index: 1;
-    margin-top: 4%;
+ 
 }
 
 #nextBar button {
 
-	background-color: $green;
+	background-color: $purple;
 	border: none;
 	width: 200px;
 	color: white;
@@ -125,3 +126,4 @@ float: right;
 }
 
 }
+

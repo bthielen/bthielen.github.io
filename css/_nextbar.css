@@ -25,11 +25,10 @@ strong {
   position: -webkit-sticky;
   position: sticky;
   top: -2px;
-  z-index: 1;
-  margin-top: 4%; }
+  z-index: 1; }
 
 #nextBar button {
-  background-color: #477B11;
+  background-color: #705d9b;
   border: none;
   width: 200px;
   color: white;

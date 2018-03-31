@@ -3,6 +3,7 @@
 	<head>
 		<title>Bethany Thielen Home</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../css/portfolio.css">
 		<link rel="stylesheet" href="resume.css">
 	    <link rel="icon" type="image/ico" href="images/favicon.ico"/> 
@@ -12,43 +13,60 @@
 	</head> 
 
 		
-		<header>
+	<header>
+
+
+		<h1 class="hidden">Bethany Thielen's design portfolio</h1>
 
 	
-			<div id="imageWrapper">	
-		
-				<img id="headerImage" src="images/headerimage.png" alt="headerimage">
 
-			<div class="burger" onclick="openNav()">&#9776;</div>
-		
-			</div>
+		<nav>
+			<ul>
+				<li class="current-page"><a href="index/htm"l>Portfolio</a></li>
+				<li><a href="contact.html">Contact & About</a></li>
+				<li><a href="resume.html">Resume</a></li>
+			</ul>
+		</nav>
 
 
-		<div id="myNav" class="overlay">
-	 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	 	 <div class="overlay-content">
-		    <a href="index.html"><span id="currentPage">Portfolio</span></a>
-		    <a href="contact.html">Contact</a>
-		    <a href="resume.html">Resume</a>
-	 	 </div>
+		<div class="header-text">
+
+			<img src="images/name.svg">
+			<p>UX/UI. Graphic Design. Web Development.</p>
 		</div>
-		
-		</header>
+	
+	</header>
 
 		<body>
 
+
+			<div class="wave"><img src="images/wave.svg"></div>
+
+			<div id="wrapper">
+
+					<div class="burger hidden-on-desktop" onclick="openNav()">&#9776;</div>
+
+					<div id="myNav" class="overlay">
+				 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					 	 <div class="overlay-content">
+						    <a href="index.html"><span id="currentPage">Portfolio</span></a>
+						    <a href="contact.html">Contact</a>
+						    <a href="resume.html">Resume</a>
+					 	 </div>
+					</div>
+
 			<div id="individualPage">
 
-				<div id="nextBar">
+		<div id="nextBar">
 
 					<a href="index.html" id="ref"> <button id="galleryButton"><span class="fa fa-angle-left" aria-hidden="true"></span> Back to Gallery</button> </a>
 
 					<a href="medal.html#ref"> <button id="galleryButton">Next Project <span class="fa fa-angle-right" aria-hidden="true"></span></button> </a>
 				</div>
 				 
-				<div id="highlight"><h1> <strong>Studies in Avocado</strong></h1></div>
+			<div id="highlight"><h1> <strong>Studies in Avocado</strong></h1></div>  
 
-				<h2>about the piece</h2>
+			<h2>about the piece</h2>
 				<p>I painted my favorite vegetable in acrylics on paper and on a phone case</p>
 
 				<div id="avocadoImages">
@@ -60,6 +78,7 @@
 
 			</div>
 		
+</div> 
 
 		</body>
 		<footer>

@@ -1,5 +1,5 @@
 
-$green: #477B11;
+$purple: #705d9b;
 
 $grey: #1A1A1A; 
 
@@ -60,11 +60,11 @@ $lightgrey: #4F4F4F;
 #wrapper {
 	width: 80%;
 	margin: 0 auto;
+	z-index: 2;
+	position: relative;
 }
 
 /*SOLARSPELL PAGE*/
-
-
 
 
 .original-mockups-flex-container {
@@ -121,7 +121,7 @@ list-style-image: url(../images/x.png);
 
 
 .button {
-	background: $green;
+	background: $purple;
 	border: 2px solid white;
 	color: white;
 	width: 100%;
@@ -142,7 +142,7 @@ list-style-image: url(../images/x.png);
 
 button:hover {
 
-	border: 4px solid $green;
+	border: 4px solid $purple;
 	color: white;
 }
 
@@ -191,7 +191,7 @@ button:hover {
 
 h2 {
 	font-size: 5vw;
-	color: $green;
+	color: $purple;
 	text-align: left;
 	font-family: Catamaran-Bold;
 	line-height: 1em;
@@ -221,7 +221,7 @@ h2 {
 
 h3 {
 	font-size: 4vw;
-	color: $green;
+	color: $purple;
 	text-align: center;
 	font-family: Catamaran-Bold;
 	line-height: .5em;
@@ -234,7 +234,7 @@ h3 {
 	padding-bottom: 1em;
 }
 
-p {
+#wrapper p {
 
 	font-size: 1.4em;
 	color: #757575;
@@ -583,7 +583,7 @@ button {
 
 h2 {
 	font-size: 5.4vw;
-	color: $green;
+	color: $purple;
 	text-align: center;
 	font-family: Catamaran-Bold;
 	line-height: 1em;

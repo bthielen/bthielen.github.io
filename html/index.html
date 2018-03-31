@@ -16,32 +16,46 @@
 	<header>
 
 
-		<div id="imageWrapper">	
-	
-			<img id="headerImage" src="images/headerimage.png" alt="headerimage">
+		<h1 class="hidden">Bethany Thielen's design portfolio</h1>
 
-			<div class="burger" onclick="openNav()">&#9776;</div>
 	
+
+		<nav>
+			<ul>
+				<li class="current-page"><a href="index/htm"l>Portfolio</a></li>
+				<li><a href="contact.html">Contact & About</a></li>
+				<li><a href="resume.html">Resume</a></li>
+			</ul>
+		</nav>
+
+
+		<div class="header-text">
+
+			<img src="images/name.svg">
+			<p>UX/UI. Graphic Design. Web Development.</p>
 		</div>
-		
-			<div id="myNav" class="overlay">
-		 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		 	 <div class="overlay-content">
-			    <a href="index.html"><span id="currentPage">Portfolio</span></a>
-			    <a href="contact.html">Contact</a>
-			    <a href="resume.html">Resume</a>
-		 	 </div>
-			</div>
-	<h1 class="hidden">Bethany Thielen's design portfolio</h1>
-
 	
 	</header>
 
 		<body>
 
+			<div class="wave"><img src="images/wave.svg"></div>
+
 			<main>
 
 				<div id="wrapper">
+
+
+					<div class="burger hidden-on-desktop" onclick="openNav()">&#9776;</div>
+
+					<div id="myNav" class="overlay">
+				 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					 	 <div class="overlay-content">
+						    <a href="index.html"><span id="currentPage">Portfolio</span></a>
+						    <a href="contact.html">Contact</a>
+						    <a href="resume.html">Resume</a>
+					 	 </div>
+					</div>
 
 				<div class="tabs">
 
@@ -50,7 +64,7 @@
 				  <div class="tab">
 				      <div id="section2">
 
-						 <h1>My Work In <span class="titleColor">User Experience Design</span> And <span class="titleColor">User Interface Design</span></h1>
+						 <h1 class="titleColor">User Experience Design &amp; User Interface Design</h1>
 
 				  		 <div class="hRule"></div>
 
@@ -150,7 +164,7 @@
 				  <label for="tabtwo">Graphic Design</label>
 				  <div class="tab">
 				   
-				   				<h1>My Work in <span class="titleColor">Graphic Design</span></h1>
+				   				<h1 class="titleColor">Graphic Design</h1>
 							
 
 								<div id="graphicDesign"> 
@@ -204,7 +218,7 @@
 			  <input type="radio" name="tabs" id="tabthree">
 				  <label for="tabthree">Tactile Design</label>
 				  <div class="tab">
-				    <h1>My work in <span class="titleColor">Tactile Design</span></h1>
+				    <h1 span class="titleColor">Tactile Design</h1>
 				   		<div id="tactileDesign"> 
 
 							<a href="shoes.html">

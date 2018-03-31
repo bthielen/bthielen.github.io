@@ -3,57 +3,57 @@
 	<head>
 		<title>Bethany Thielen Home</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../css/portfolio.css">
-		<link rel="stylesheet" href="../css/resume.css">
-		<!-- HTML5 shim for IE backwards compatibility -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="icon" type="image/ico" href="images/favicon.ico"/> 
-	<link href="https://fonts.googleapis.com/css?family=Catamaran:400,800,900" rel="stylesheet">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="materialize/js/materialize.min.js"></script>
-    <script src="../js/index.js"></script>
-
-
+	    <link rel="icon" type="image/ico" href="images/favicon.ico"/> 
+		<link href="https://fonts.googleapis.com/css?family=Catamaran:400,800,900" rel="stylesheet">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	    <script src="../js/index.js"></script>
 	</head> 
 
-		
-		<header>
+	<header>
 
 
-
-			<div id="imageWrapper">	
-		
-				<img id="headerImage" src="images/headerimage.png" alt="headerimage">
-
-			<div class="burger" onclick="openNav()">&#9776;</div>
-		
-			</div>
-		
-
-
-			<div id="myNav" class="overlay">
-		 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		 	 <div class="overlay-content">
-			    <a href="index.html">Portfolio</a>
-			    <a href="contact.html">Contact</a>
-			    <a href="resume.html"><span id="currentPage">Resume</span></a>
-		 	 </div>
-			</div>
-
-
+		<h1 class="hidden">Bethany Thielen's design portfolio</h1>
 
 	
-		</header>
+
+		<nav>
+			<ul>
+				<li> <a href="index.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact & About</a></li>
+				<li class="current-page"><a href="resume.html">Resume</a></li>
+			</ul>
+		</nav>
+
+
+		<div class="header-text">
+
+			<img src="images/name.svg">
+			<p>UX/UI. Graphic Design. Web Development.</p>
+		</div>
+	
+	</header>
 
 		<body>
 
-			<main>
+			<div class="wave"><img src="images/wave.svg"></div>
+					<div class="burger hidden-on-desktop" onclick="openNav()">&#9776;</div>
 
-<img src="images/resumepage1.png" alt="resumepage1">
-<img src="images/resumepage2.png" alt="resumepage2">
+					<div id="myNav" class="overlay">
+				 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					 	 <div class="overlay-content">
+						    <a href="index.html"><span id="currentPage">Portfolio</span></a>
+						    <a href="contact.html">Contact</a>
+						    <a href="resume.html">Resume</a>
+					 	 </div>
+					</div>
 
+		<div id="wrapper">
+
+		<img class="resume-img" src="images/resumepage1.png" alt="resumepage1">
+		<img class="resume-img" src="images/resumepage2.png" alt="resumepage2">
+</div>
 
 		</main>
 		<footer>

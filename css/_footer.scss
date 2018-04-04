@@ -1,4 +1,9 @@
+$grey: #191919;
 
+@font-face {
+  font-family: Catamaran-Medium;
+  src: url(../fonts/Catamaran-Medium.ttf);
+}
 
 #footerspace {
   padding: 5px; }
@@ -16,7 +21,7 @@ footer p {
   color: #A5A5A5;
   text-align: center;
   font-size: 12px;
-  font-family: Gudea-Regular;
+  font-family: Catamaran-Medium, sans-serif;
   margin-top: 10px;
   max-width: initial;
   left: 35%; }

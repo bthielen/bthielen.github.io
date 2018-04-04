@@ -11,7 +11,7 @@ $grey: #191919;
 
 /*import*/
 
-@import 'footer';
+
 @import 'contact';
 @import 'header';
 @import 'nextbar';
@@ -73,6 +73,19 @@ $grey: #191919;
 	font-family: Brownhill-Script;
 	src: url(../fonts/Brownhill-Script.ttf);
 }
+
+
+
+/*variables*/
+
+$purple: #705d9b;
+
+$blue: #4e728b;
+
+$grey: #191919;
+
+
+
 
 /*RESUME PAGE*/
 
@@ -301,14 +314,7 @@ margin-top: 5%;
 }
 
 
-
-
-
-
 /*index*/
-
-
-
 
 .imageOverlay{
 position: absolute;
@@ -330,8 +336,6 @@ line-height: 60px;
 	color:black;
 	opacity: 1;
 }
-
-
 
 .imgContainer {
 	position: relative;
@@ -455,13 +459,13 @@ line-height: 60px;
 
 #thymeforDinner {
 
-border-bottom: 2px solid black;
+border-bottom: 2px solid $grey;
 padding-bottom: 5%;
 
 }
 
 #uhaul {
-border-bottom: 2px solid black;
+border-bottom: 2px solid $grey;
 margin-top: 6%;
 overflow: hidden;
 padding-bottom: 30px;
@@ -469,12 +473,12 @@ padding-bottom: 30px;
 }
 
 #babyshower {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid $grey;
 	overflow: hidden;
 }
 
 #solarSpell {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid $grey;
     padding-bottom: 5%;
 }
 
@@ -821,6 +825,8 @@ padding-bottom: 5%;
 
 
 @media screen and (max-height: 450px) {
+
+
   .overlay {overflow-y: auto;}
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -828,4 +834,6 @@ padding-bottom: 5%;
     top: 15px;
     right: 35px;
   }
+
+
 }

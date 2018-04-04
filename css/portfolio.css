@@ -63,7 +63,6 @@ footer p {
   height: auto;
   margin: 0 auto;
   border: 2px solid #191919;
-  margin-top: 70px;
   background-color: white; }
 
 .profileCircle {
@@ -396,10 +395,13 @@ header {
     font-size: 45px; }
 
   .header-text {
-    bottom: 510px; }
+    bottom: 535px; }
 
   .header-text p {
     font-size: 16px; } }
+@media screen and (max-width: 350px) {
+  .wave {
+    display: none; } }
 .space {
   height: 50px;
   width: 1px; }
@@ -505,16 +507,14 @@ strong {
 #section2 {
   margin: 0 auto; }
 
-.tab h1 {
+.tab h2 {
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
   font-size: 4.5vw;
   margin-bottom: 0px;
   font-family: Catamaran-Medium;
-  width: 80%; }
-
-.titleColor {
+  width: 80%;
   background: -webkit-linear-gradient(left, #586c90, #a739b3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -737,7 +737,7 @@ label:hover {
   height: 230px;
   margin-left: 5%; }
 
-.projectDescrip h3 {
+.projectDescrip h4 {
   color: #4e728b;
   font-family: Catamaran-Medium;
   margin: 2px; }
@@ -797,7 +797,7 @@ label:hover {
 #solarspell img {
   width: 90%; }
 
-.projectDescrip h2 {
+.projectDescrip h3 {
   font-family: Catamaran-Bold, arial;
   font-size: 30px;
   line-height: 30px;
@@ -865,6 +865,9 @@ label:hover {
   .tabs label {
     font-size: 2.4vw; } }
 @media screen and (max-width: 500px) {
+  .tab h2 {
+    font-size: 29px; }
+
   #wrapper a {
     font-family: Catamaran-Medium;
     font-size: 4vw;
@@ -935,14 +938,31 @@ label:hover {
     border-bottom: 2px solid #6380A6 !important;
     background-color: #705d9b;
     padding: 9px !important;
-    font-size: 3vw !important; }
+    font-size: 3vw !important;
+    color: white; }
 
   .tabs input[type="radio"]:checked + label {
     background-color: #1A1A1A;
     color: white; } }
 @media screen and (max-width: 450px) {
-  .uxSection img {
+  .projectDescrip {
     display: none !important; }
+
+  #uhaul {
+    overflow: initial;
+    border-bottom: none; }
+
+  #solarSpell {
+    border-bottom: none; }
+
+  #babyShower {
+    border-bottom: none; }
+
+  #thymeforDinner {
+    border-bottom: none; }
+
+  .uximgContainer {
+    width: 100%; }
 
   .projectDescrip p {
     font-size: 12px !important; }

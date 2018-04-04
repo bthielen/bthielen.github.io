@@ -96,7 +96,7 @@ $grey: #191919;
 	margin: 0 auto;
 }
 
-.tab h1 {
+.tab h2 {
 	margin-left: 10%;
 	margin-right: 10%;
 	text-align: center;
@@ -104,14 +104,12 @@ $grey: #191919;
 	margin-bottom: 0px;
 	font-family: Catamaran-Medium;
 	width: 80%;
-}
-
-.titleColor {
-  background: -webkit-linear-gradient(left, #586c90, #a739b3);
+	  background: -webkit-linear-gradient(left, #586c90, #a739b3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 5.5%;
 }
+
 
 
 body {
@@ -443,7 +441,7 @@ line-height: 60px;
 
 }
 
-.projectDescrip h3 {
+.projectDescrip h4 {
 
 	color: $blue;
 	font-family: Catamaran-Medium;
@@ -532,7 +530,7 @@ display: inline-block;
 	width: 90%;
 }
 
-.projectDescrip h2 {
+.projectDescrip h3 {
 	font-family: Catamaran-Bold, arial;
 	font-size: 30px;
 	line-height: 30px;
@@ -651,6 +649,10 @@ font-size: 2.4vw;
 
 @media screen and (max-width: 500px) {
 
+.tab h2 {
+
+	font-size: 29px;
+}
 
 #wrapper a {
 
@@ -756,6 +758,7 @@ padding-bottom: 5%;
     background-color: $purple;
     padding: 9px !important;
     font-size: 3vw !important;
+    color: white;
 }
     .tabs input[type="radio"]:checked + label {
 
@@ -769,11 +772,36 @@ padding-bottom: 5%;
 @media screen and (max-width: 450px) {
 
 
-	.uxSection img
+	.projectDescrip
 	{
 	
 		display: none!important;
 
+	}
+
+	#uhaul {
+
+		overflow: initial;
+		border-bottom: none;
+
+	}
+
+	#solarSpell {
+		border-bottom: none;
+	}
+
+	#babyShower {
+		border-bottom: none;
+	}
+
+	#thymeforDinner {
+
+		border-bottom: none;
+	}
+
+	.uximgContainer {
+
+		width: 100%;
 	}
 
 

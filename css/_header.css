@@ -193,9 +193,12 @@ header {
     font-size: 45px; }
 
   .header-text {
-    bottom: 510px; }
+    bottom: 535px; }
 
   .header-text p {
     font-size: 16px; } }
+@media screen and (max-width: 350px) {
+  .wave {
+    display: none; } }
 
 /*# sourceMappingURL=_header.css.map */

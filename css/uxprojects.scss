@@ -142,8 +142,9 @@ list-style-image: url(../images/x.png);
 
 button:hover {
 
-	border: 4px solid $purple;
-	color: white;
+	border: 2px solid $purple;
+	background: white;
+	color: $purple;
 }
 
 

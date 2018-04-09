@@ -140,7 +140,7 @@ header {
     font-size: 55px;
     cursor: pointer;
     position: fixed;
-    color: white;
+    color: white !important;
     margin-top: -360px;
     left: 90%; }
 

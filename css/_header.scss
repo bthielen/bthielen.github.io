@@ -89,6 +89,7 @@ header {
     background-attachment: fixed;
     z-index: -100;
 
+    top: 0;
     
 }
 
@@ -132,7 +133,6 @@ overflow: hidden;
     width: 100%;
     position: fixed;
     z-index: 1;
-    top: 0;
     left: 0;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.9);
@@ -172,6 +172,26 @@ overflow: hidden;
 }
 
 
+@media screen and (max-width: 2455px) {
+
+
+    header {
+    background-image: url(../html/images/blob-xl.png);
+background-size: auto 800px;
+    }
+
+
+}
+
+@media screen and (max-width: 1900px) {
+
+
+    header {
+    background-image: url(../html/images/blob.png);
+    background-size: auto 690px;
+    }
+  
+}
 
 @media screen and (max-width: 1338px) {
 
@@ -182,8 +202,9 @@ nav {
 }
 
 header {
-
+    background-image: url(../html/images/blob-med.png);
     height: 500px;
+    background-size: auto 650px;
 }
 
 
@@ -251,6 +272,7 @@ header {
 @media screen and (max-width: 770px) {
 
 header {
+    background-image: url(../html/images/blob-small.png);
 
     background-size: cover;
       background-size: auto 390px;

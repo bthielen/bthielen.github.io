@@ -85,6 +85,51 @@ $blue: #4e728b;
 $grey: #191919;
 
 
+.icon-box img {
+
+	width: 100px;
+}
+
+
+.about-header img {
+
+
+	width: 55%;
+	float: left;
+
+}
+
+.about-header h2 {
+
+	float: right;
+	text-transform: uppercase;
+	font-family: Catamaran-Bold, sans-serif;
+	font-size: 50px;
+}
+
+.stripe {
+
+background-color: $blue;
+width: 100%;
+padding: 10px 10px;
+}
+
+.stripe p {
+
+	color: white;
+	text-align: center;
+	font-family: Catamaran, sans-serif;
+	font-size: 16px;
+}
+
+.about-heading {
+text-transform: uppercase;
+	font-family: Catamaran-Bold, sans-serif;
+	font-size: 50px;
+	text-align: center;
+
+}
+
 
 
 /*RESUME PAGE*/

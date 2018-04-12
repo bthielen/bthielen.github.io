@@ -456,7 +456,7 @@ header {
 .wave img {
   position: relative;
   top: -190px;
-  width: 100%; }
+  width: 103%; }
 
 .wave {
   height: 0;
@@ -556,7 +556,7 @@ header {
       background-color: white;
       width: 100%; }
     .header-text .wave img {
-      width: 100%;
+      width: 103%;
       top: -110px; } }
 @media screen and (max-width: 1105px) and (max-width: 770px) {
   header {

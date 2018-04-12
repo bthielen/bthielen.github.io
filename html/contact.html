@@ -25,8 +25,18 @@
 
 		<h1 class="hidden">Bethany Thielen's design portfolio</h1>
 
+		<div class="burger hidden-on-desktop" onclick="openNav()">&#9776;</div>
 
-	<nav>
+		<div id="myNav" class="overlay">
+	 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		 	 <div class="overlay-content">
+			    <a href="index.html"><span class="current-page">Portfolio</span></a>
+			    <a href="contact.html">Contact</a>
+			    <a href="resume.html">Resume</a>
+		 	 </div>
+		</div>
+
+		<nav>
 			<ul>
 				<li> <a href="index.html">Portfolio</a></li>
 				<li class="current-page"><a href="contact.html">Contact & About</a></li>
@@ -50,18 +60,6 @@
 
 				<div id="wrapper">
 
-
-					<div class="burger hidden-on-desktop" onclick="openNav()">&#9776;</div>
-
-					<div id="myNav" class="overlay">
-				 	 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-					 	 <div class="overlay-content">
-						    <a href="index.html"><span id="currentPage">Portfolio</span></a>
-						    <a href="contact.html">Contact</a>
-						    <a href="resume.html">Resume</a>
-					 	 </div>
-					</div>
-<!--
 
 					<div class="about-header">
 						<img class="me-pic" src="images/bethany.jpg">

@@ -456,11 +456,12 @@ header {
 .wave img {
   position: relative;
   top: -190px;
-  width: 103%; }
+  overflow: hidden; }
 
 .wave {
   height: 0;
-  background-color: red; }
+  background-color: red;
+  width: 100%; }
 
 .hidden-on-desktop {
   display: none; }
@@ -477,12 +478,12 @@ header {
   height: 0%;
   width: 100%;
   position: fixed;
+  z-index: 101;
   left: 0;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-y: hidden;
-  transition: 0.5s;
-  z-index: 1000; }
+  transition: 0.5s; }
 
 .overlay-content {
   position: relative;
@@ -799,7 +800,7 @@ label:hover {
 
 /*index*/
 .imageOverlay {
-  position: relative;
+  position: absolute;
   top: 40%;
   width: 90%;
   margin-left: 3%;
@@ -813,7 +814,6 @@ label:hover {
   line-height: 60px; }
 
 .imgContainer:hover .imageOverlay {
-  color: black;
   opacity: 1; }
 
 .imgContainer {

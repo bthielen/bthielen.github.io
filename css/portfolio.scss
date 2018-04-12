@@ -89,15 +89,21 @@ $grey: #191919;
 
 .icon-box img {
 
-	width: 100px;
+
 }
 
+.about-header {
+
+	width: 85%;
+	margin: 0 auto;
+}
 
 .about-header img {
 
 
-	width: 55%;
+	width: 42%;
 	float: left;
+	margin-right: 2.5%;
 
 }
 
@@ -107,13 +113,16 @@ $grey: #191919;
 	text-transform: uppercase;
 	font-family: Catamaran-Bold, sans-serif;
 	font-size: 50px;
+	width: 45%;
 }
 
 .stripe {
 
 background-color: $blue;
-width: 100%;
+width: 85%;
 padding: 10px 10px;
+clear: both;
+margin: 0 auto;
 }
 
 .stripe p {
@@ -121,7 +130,10 @@ padding: 10px 10px;
 	color: white;
 	text-align: center;
 	font-family: Catamaran, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 .about-heading {
@@ -364,7 +376,7 @@ margin-top: 5%;
 /*index*/
 
 .imageOverlay{
-position: absolute;
+position: relative;
 top: 40%;
 width: 90%;
 margin-left: 3%;

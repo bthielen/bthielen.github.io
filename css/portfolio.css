@@ -385,7 +385,6 @@ header {
   height: 0%;
   width: 100%;
   position: fixed;
-  z-index: 1;
   left: 0;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.9);
@@ -455,7 +454,8 @@ header {
     position: fixed;
     color: white !important;
     margin-top: -360px;
-    left: 90%; }
+    left: 90%;
+    z-index: 1; }
 
   .header-text {
     margin-top: 110px; }
@@ -603,29 +603,37 @@ strong {
   font-family: Brownhill-Script;
   src: url(../fonts/Brownhill-Script.ttf); }
 /*variables*/
-.icon-box img {
-  width: 100px; }
+.about-header {
+  width: 85%;
+  margin: 0 auto; }
 
 .about-header img {
-  width: 55%;
-  float: left; }
+  width: 42%;
+  float: left;
+  margin-right: 2.5%; }
 
 .about-header h2 {
   float: right;
   text-transform: uppercase;
   font-family: Catamaran-Bold, sans-serif;
-  font-size: 50px; }
+  font-size: 50px;
+  width: 45%; }
 
 .stripe {
   background-color: #4e728b;
-  width: 100%;
-  padding: 10px 10px; }
+  width: 85%;
+  padding: 10px 10px;
+  clear: both;
+  margin: 0 auto; }
 
 .stripe p {
   color: white;
   text-align: center;
   font-family: Catamaran, sans-serif;
-  font-size: 16px; }
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px; }
 
 .about-heading {
   text-transform: uppercase;
@@ -783,7 +791,7 @@ label:hover {
 
 /*index*/
 .imageOverlay {
-  position: absolute;
+  position: relative;
   top: 40%;
   width: 90%;
   margin-left: 3%;

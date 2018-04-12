@@ -301,6 +301,98 @@ textarea {
 }
 
 */
+.space {
+  height: 50px;
+  width: 1px; }
+
+strong {
+  color: white; }
+
+#highlight {
+  background-color: #1A1A1A;
+  padding-top: 1px;
+  width: 100%;
+  height: auto; }
+
+#highlight h1 {
+  text-align: center;
+  font-size: 7vw;
+  color: #2E3E58;
+  text-align: center;
+  font-family: Catamaran-Bold;
+  margin: 0px; }
+
+#nextBar {
+  background-color: #e4e4ef;
+  height: 33px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -2px;
+  z-index: 1; }
+
+#nextBar button {
+  background-color: #705d9b;
+  border: none;
+  width: 200px;
+  color: white;
+  font-family: Catamaran-Medium;
+  height: 33px;
+  font-size: 20px;
+  cursor: pointer; }
+
+#nextBar a:nth-child(2) {
+  float: right; }
+
+@media screen and (max-width: 680px) {
+  #nextBar {
+    position: initial; }
+
+  #nextBar button {
+    font-size: 15px;
+    width: 130px; } }
+@media screen and (max-width: 500px) {
+  #nextBar button {
+    font-size: 18.5px;
+    width: 140px;
+    height: 47px; }
+
+  #nextBar {
+    height: 47px; } }
+@media screen and (max-width: 450px) {
+  #nextBar button {
+    font-size: 15px;
+    width: 103px; } }
+@font-face {
+  font-family: Gudea-Regular;
+  src: url(../fonts/Gudea-Regular.ttf); }
+@font-face {
+  font-family: risoless;
+  src: url(../fonts/risoless.ttf); }
+@font-face {
+  font-family: streetlight;
+  src: url(../fonts/streetlight.ttf); }
+@font-face {
+  font-family: Catamaran-Bold;
+  src: url(../fonts/Catamaran-Bold.ttf); }
+@font-face {
+  font-family: Catamaran-Medium;
+  src: url(../fonts/Catamaran-Medium.ttf); }
+@font-face {
+  font-family: Catamaran-Black;
+  src: url(../fonts/Catamaran-Black.ttf); }
+@font-face {
+  font-family: Catamaran-ExtraLight;
+  src: url(../fonts/Catamaran-ExtraLight.ttf); }
+@font-face {
+  font-family: Catamaran-Light;
+  src: url(../fonts/Catamaran-Light.ttf); }
+@font-face {
+  font-family: Catamaran-Regular;
+  src: url(../fonts/Catamaran-Regular.ttf); }
+@font-face {
+  font-family: Brownhill-Script;
+  src: url(../fonts/Brownhill-Script.ttf); }
+/*variables*/
 /*makes header take up whole page */
 body {
   margin: 0; }
@@ -455,7 +547,7 @@ header {
     color: white !important;
     margin-top: -360px;
     left: 90%;
-    z-index: 1; }
+    z-index: -1; }
 
   .header-text {
     margin-top: 110px; }
@@ -511,98 +603,6 @@ header {
 @media screen and (max-width: 1105px) and (max-width: 350px) {
   .wave {
     display: none; } }
-.space {
-  height: 50px;
-  width: 1px; }
-
-strong {
-  color: white; }
-
-#highlight {
-  background-color: #1A1A1A;
-  padding-top: 1px;
-  width: 100%;
-  height: auto; }
-
-#highlight h1 {
-  text-align: center;
-  font-size: 7vw;
-  color: #2E3E58;
-  text-align: center;
-  font-family: Catamaran-Bold;
-  margin: 0px; }
-
-#nextBar {
-  background-color: #e4e4ef;
-  height: 33px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -2px;
-  z-index: 1; }
-
-#nextBar button {
-  background-color: #705d9b;
-  border: none;
-  width: 200px;
-  color: white;
-  font-family: Catamaran-Medium;
-  height: 33px;
-  font-size: 20px;
-  cursor: pointer; }
-
-#nextBar a:nth-child(2) {
-  float: right; }
-
-@media screen and (max-width: 680px) {
-  #nextBar {
-    position: initial; }
-
-  #nextBar button {
-    font-size: 15px;
-    width: 130px; } }
-@media screen and (max-width: 500px) {
-  #nextBar button {
-    font-size: 18.5px;
-    width: 140px;
-    height: 47px; }
-
-  #nextBar {
-    height: 47px; } }
-@media screen and (max-width: 450px) {
-  #nextBar button {
-    font-size: 15px;
-    width: 103px; } }
-@font-face {
-  font-family: Gudea-Regular;
-  src: url(../fonts/Gudea-Regular.ttf); }
-@font-face {
-  font-family: risoless;
-  src: url(../fonts/risoless.ttf); }
-@font-face {
-  font-family: streetlight;
-  src: url(../fonts/streetlight.ttf); }
-@font-face {
-  font-family: Catamaran-Bold;
-  src: url(../fonts/Catamaran-Bold.ttf); }
-@font-face {
-  font-family: Catamaran-Medium;
-  src: url(../fonts/Catamaran-Medium.ttf); }
-@font-face {
-  font-family: Catamaran-Black;
-  src: url(../fonts/Catamaran-Black.ttf); }
-@font-face {
-  font-family: Catamaran-ExtraLight;
-  src: url(../fonts/Catamaran-ExtraLight.ttf); }
-@font-face {
-  font-family: Catamaran-Light;
-  src: url(../fonts/Catamaran-Light.ttf); }
-@font-face {
-  font-family: Catamaran-Regular;
-  src: url(../fonts/Catamaran-Regular.ttf); }
-@font-face {
-  font-family: Brownhill-Script;
-  src: url(../fonts/Brownhill-Script.ttf); }
-/*variables*/
 .about-header {
   width: 85%;
   margin: 0 auto; }

@@ -224,6 +224,7 @@ overflow: hidden;
     background-color: rgba(0,0,0, 0.9);
     overflow-y: hidden;
     transition: 0.5s;
+    z-index: 1000;
 }
 
 .overlay-content {
@@ -324,20 +325,22 @@ header {
 }
 
 .burger {
+    width: 103%;
+    top: -110px;
+
     font-size: 55px;
     cursor:pointer;
-    position: fixed;
-    color: white!important;
+    color: white;
     margin-top: -360px;
-    left: 90%;
-    z-index: -1;
+    margin-left: 88%;
+    z-index: -100;
 
 
 }
 
 .header-text {
 
-  margin-top: 110px;
+  margin-top: 25px;
 
 .wave {
 
@@ -348,9 +351,6 @@ header {
 }
 
 .wave img {
-
-    width: 103%;
-    top: -110px;
 
 }
 
@@ -370,7 +370,7 @@ header {
 
 .header-text {
 
-    margin-top: 45px;
+    margin-top: -30px;
 
 }
 
@@ -423,15 +423,15 @@ header {
     .burger {
 
     margin-top: -200px;
-    left: 84%;
     font-size: 45px;
+    margin-left: 84%;
 
 }
 
 .header-text {
 
 
-    margin-top: 40px;
+    margin-top: -30px;
 }
     .header-text p {
 
@@ -446,6 +446,19 @@ font-size: 16px;
 
     display: none;
 
+}
+
+.header-text {
+
+	margin-top: -10px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.header-text img {
+
+	width: 100%;
 }
 
 }

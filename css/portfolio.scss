@@ -417,7 +417,12 @@ header {
 
    .burger {
 
-   	margin-left: 89%;
+   	margin-left: 87%;
+   }
+
+   .header-text {
+
+   	margin-top: 10px;
    }
 
 }
@@ -432,8 +437,7 @@ header {
 
     .burger {
 
-  
-    font-size: 45px;
+	margin-top: 100px;
     margin-left: 85%;
 
 }
@@ -441,7 +445,15 @@ header {
 .header-text {
 
 
-    margin-top: -25px;
+
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.header-text img {
+
+	width: 100%;
 }
     .header-text p {
 
@@ -471,10 +483,6 @@ font-size: 16px;
 	margin-right: 15%;
 }
 
-.header-text img {
-
-	width: 100%;
-}
 
 .burger {
 

@@ -591,17 +591,25 @@ header {
     top: -50px; }
 
   .burger {
-    margin-left: 89%; } }
+    margin-left: 87%; }
+
+  .header-text {
+    margin-top: 10px; } }
 @media screen and (max-width: 1105px) and (max-width: 450px) {
   header {
     height: 200px; }
 
   .burger {
-    font-size: 45px;
+    margin-top: 100px;
     margin-left: 85%; }
 
   .header-text {
-    margin-top: -25px; }
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; }
+
+  .header-text img {
+    width: 100%; }
 
   .header-text p {
     font-size: 16px; }
@@ -617,9 +625,6 @@ header {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%; }
-
-  .header-text img {
-    width: 100%; }
 
   .burger {
     margin-left: 81%; } }

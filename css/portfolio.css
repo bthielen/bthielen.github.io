@@ -549,8 +549,11 @@ header {
     cursor: pointer;
     color: white;
     margin-top: -360px;
-    margin-left: 88%;
+    margin-left: 91%;
     z-index: -100; }
+
+  .burger img {
+    width: 40px; }
 
   .header-text {
     margin-top: 25px; }
@@ -585,21 +588,26 @@ header {
     top: -90px; } }
 @media screen and (max-width: 1105px) and (max-width: 647px) {
   .wave img {
-    top: -50px; } }
+    top: -50px; }
+
+  .burger {
+    margin-left: 89%; } }
 @media screen and (max-width: 1105px) and (max-width: 450px) {
   header {
     height: 200px; }
 
   .burger {
-    margin-top: -200px;
     font-size: 45px;
-    margin-left: 84%; }
+    margin-left: 85%; }
 
   .header-text {
-    margin-top: -30px; }
+    margin-top: -25px; }
 
   .header-text p {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .wave img {
+    display: none; } }
 @media screen and (max-width: 1105px) and (max-width: 350px) {
   .wave {
     display: none; }
@@ -611,7 +619,10 @@ header {
     margin-right: 15%; }
 
   .header-text img {
-    width: 100%; } }
+    width: 100%; }
+
+  .burger {
+    margin-left: 81%; } }
 .about-header {
   width: 85%;
   margin: 0 auto; }

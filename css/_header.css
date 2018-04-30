@@ -1,3 +1,231 @@
+/*makes header take up whole page */
+body {
+  margin: 0; }
 
+nav {
+  left: 48%;
+  margin-right: 5%;
+  margin-top: 2%;
+  position: fixed; }
+
+nav ul {
+  text-decoration: none; }
+
+nav li {
+  display: inline;
+  margin-left: 60px;
+  font-family: Catamaran-ExtraLight, sans-serif;
+  font-size: 20px; }
+
+nav li a {
+  text-decoration: none;
+  color: white; }
+
+.current-page {
+  border-bottom: 1.5px solid white; }
+
+header li a:hover {
+  border-bottom: 1.5px solid white; }
+
+.header-text {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  position: fixed;
+  margin-top: 165px;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  z-index: 1; }
+
+.header-text h2 {
+  font-family: Brownhill-Script, sans-serif;
+  font-size: 140px;
+  color: red; }
+
+.header-text p {
+  font-family: Catamaran-ExtraLight, sans-serif;
+  font-size: 22px;
+  margin-top: 2px; }
+
+header {
+  background-image: url(../html/images/blob.png);
+  background-size: auto 650px;
+  background-position: 50% -30px;
+  height: 580px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -100;
+  top: 0; }
+
+.wave img {
+  position: relative;
+  top: -190px;
+  overflow: hidden; }
+
+.wave {
+  height: 0;
+  background-color: red;
+  width: 100%; }
+
+.hidden-on-desktop {
+  display: none; }
+
+#headerImage {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.hidden {
+  display: none; }
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 101;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s; }
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px; }
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #e5e5e5;
+  display: block;
+  transition: 0.3s;
+  font-family: Catamaran-Light; }
+
+.overlay a:hover, .overlay a:focus {
+  color: #4e728b; }
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px; }
+
+@media screen and (max-width: 2455px) {
+  header {
+    background-image: url(../html/images/blob-xl.png);
+    background-size: auto 800px; } }
+@media screen and (max-width: 1900px) {
+  header {
+    background-image: url(../html/images/blob.png);
+    background-size: auto 690px; } }
+@media screen and (max-width: 1338px) {
+  nav {
+    left: 45%; }
+
+  header {
+    background-image: url(../html/images/blob-med.png);
+    height: 500px;
+    background-size: auto 650px; }
+
+  .wave img {
+    top: -110px; } }
+@media screen and (max-width: 1105px) {
+  nav {
+    display: none; }
+
+  header {
+    background-size: cover;
+    height: 400px;
+    background-size: auto 520px;
+    min-height: initial; }
+
+  .hidden-on-desktop {
+    display: initial; }
+
+  .burger {
+    width: 103%;
+    top: -110px;
+    font-size: 55px;
+    cursor: pointer;
+    color: white;
+    margin-top: -360px;
+    margin-left: 91%;
+    z-index: -100; }
+
+  .burger img {
+    width: 40px; }
+
+  .header-text {
+    margin-top: 25px; }
+    .header-text .wave {
+      height: 0px;
+      background-color: white;
+      width: 100%; } }
+@media screen and (max-width: 1105px) and (max-width: 770px) {
+  header {
+    background-image: url(../html/images/blob-small.png);
+    background-size: cover;
+    background-size: auto 390px;
+    min-height: initial;
+    height: 250px; }
+
+  .header-text {
+    margin-top: -30px; }
+
+  .header-text p {
+    font-size: 18px; }
+
+  .burger {
+    margin-top: -240px;
+    left: 87.8%; }
+
+  .wave {
+    height: 9px;
+    width: 100%;
+    background-color: white; }
+
+  .wave img {
+    top: -90px; } }
+@media screen and (max-width: 1105px) and (max-width: 647px) {
+  .wave img {
+    top: -50px; }
+
+  .burger {
+    margin-left: 87%; }
+
+  .header-text {
+    margin-top: 10px; } }
+@media screen and (max-width: 1105px) and (max-width: 450px) {
+  header {
+    height: 200px; }
+
+  .burger {
+    margin-top: 100px;
+    margin-left: 85%; }
+
+  .header-text {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; }
+
+  .header-text img {
+    width: 100%; }
+
+  .header-text p {
+    font-size: 16px; }
+
+  .wave img {
+    display: none; } }
+@media screen and (max-width: 1105px) and (max-width: 350px) {
+  .wave {
+    display: none; }
+
+  .burger {
+    margin-left: 81%; } }
 
 /*# sourceMappingURL=_header.css.map */

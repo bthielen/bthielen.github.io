@@ -55,16 +55,18 @@ header {
   height: 580px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  z-index: -100; }
+  z-index: -100;
+  top: 0; }
 
 .wave img {
   position: relative;
   top: -190px;
-  width: 100%; }
+  overflow: hidden; }
 
 .wave {
   height: 0;
-  background-color: red; }
+  background-color: red;
+  width: 100%; }
 
 .hidden-on-desktop {
   display: none; }
@@ -81,8 +83,7 @@ header {
   height: 0%;
   width: 100%;
   position: fixed;
-  z-index: 1;
-  top: 0;
+  z-index: 101;
   left: 0;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.9);
@@ -114,12 +115,22 @@ header {
   right: 45px;
   font-size: 60px; }
 
+@media screen and (max-width: 2455px) {
+  header {
+    background-image: url(../html/images/blob-xl.png);
+    background-size: auto 800px; } }
+@media screen and (max-width: 1900px) {
+  header {
+    background-image: url(../html/images/blob.png);
+    background-size: auto 690px; } }
 @media screen and (max-width: 1338px) {
   nav {
     left: 45%; }
 
   header {
-    height: 500px; }
+    background-image: url(../html/images/blob-med.png);
+    height: 500px;
+    background-size: auto 650px; }
 
   .wave img {
     top: -110px; } }
@@ -137,31 +148,34 @@ header {
     display: initial; }
 
   .burger {
+    width: 103%;
+    top: -110px;
     font-size: 55px;
     cursor: pointer;
-    position: fixed;
-    color: white !important;
+    color: white;
     margin-top: -360px;
-    left: 90%; }
+    margin-left: 91%;
+    z-index: -100; }
+
+  .burger img {
+    width: 40px; }
 
   .header-text {
-    margin-top: 110px; }
+    margin-top: 25px; }
     .header-text .wave {
       height: 0px;
       background-color: white;
-      width: 100%; }
-    .header-text .wave img {
-      width: 100%;
-      top: -110px; } }
+      width: 100%; } }
 @media screen and (max-width: 1105px) and (max-width: 770px) {
   header {
+    background-image: url(../html/images/blob-small.png);
     background-size: cover;
     background-size: auto 390px;
     min-height: initial;
     height: 250px; }
 
   .header-text {
-    margin-top: 45px; }
+    margin-top: -30px; }
 
   .header-text p {
     font-size: 18px; }
@@ -179,24 +193,40 @@ header {
     top: -90px; } }
 @media screen and (max-width: 1105px) and (max-width: 647px) {
   .wave img {
-    top: -50px; } }
+    top: -50px; }
+
+  .burger {
+    margin-left: 87%; }
+
+  .header-text {
+    margin-top: 10px; } }
 @media screen and (max-width: 1105px) and (max-width: 450px) {
   header {
     height: 200px; }
 
   .burger {
-    margin-top: -200px;
-    left: 84%;
-    font-size: 45px; }
+    margin-top: 100px;
+    margin-left: 85%; }
 
   .header-text {
-    margin-top: 40px; }
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; }
+
+  .header-text img {
+    width: 100%; }
 
   .header-text p {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .wave img {
+    display: none; } }
 @media screen and (max-width: 1105px) and (max-width: 350px) {
   .wave {
-    display: none; } }
+    display: none; }
+
+  .burger {
+    margin-left: 81%; } }
 .space {
   height: 50px;
   width: 1px; }
@@ -324,6 +354,11 @@ footer p {
   position: relative; }
 
 /*SOLARSPELL PAGE*/
+.main-mockup {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
 .original-mockups-flex-container {
   display: flex;
   display: -webkit-box;
@@ -341,7 +376,7 @@ li p {
   margin: 0;
   padding: 3px; }
 
-.original-mockups-flex-box li {
+li {
   list-style-image: url(../images/x.png); }
 
 /*END SOLARSPELL*/
@@ -407,7 +442,8 @@ h2 {
   color: #705d9b;
   text-align: left;
   font-family: Catamaran-Bold;
-  line-height: 1em; }
+  line-height: 1em;
+  clear: both; }
 
 #linkContainer button {
   background: transparent;
@@ -457,22 +493,26 @@ h3 {
 #uhaulcreativeProcess {
   clear: both; }
 
-/*babyshower*/
-.babyshowersketch {
-  width: 35%;
-  float: right;
-  margin-bottom: 3%; }
+/*CarDash*/
+.original-mockups img {
+  width: 40%;
+  float: left;
+  border: 2px solid #E5E5E5;
+  margin-bottom: 2%; }
 
-#babyshowermockups img {
-  width: 32%;
-  display: inline-block; }
+.original-mockups ul {
+  float: right;
+  max-width: 40%; }
+
+.original-mockups li {
+  font-size: 1.4em;
+  color: #757575;
+  text-align: left;
+  font-family: Catamaran-Regular;
+  max-width: 1200px; }
 
 #babyshowermockups {
   clear: both; }
-
-#babyshowersketchdescrip {
-  width: 45%;
-  float: left; }
 
 /*THYME FOR DINNER*/
 #designHeader img {
@@ -618,7 +658,10 @@ h3 {
     font-size: 2.5em; }
 
   .bebas {
-    font-size: 1.7em; } }
+    font-size: 1.7em; }
+
+  .original-mockups li {
+    font-size: 20px; } }
 @media screen and (max-width: 700px) {
   .button {
     font-size: 14px; }
@@ -710,20 +753,9 @@ h3 {
   #designLogo h3 {
     line-height: 3.7em; }
 
-  /*BABY SHOWER*/
-  #babyshowermockups img {
-    width: 100%;
-    display: block; }
-
-  .babyshowersketch {
-    width: 100%; }
-
-  #babyshowersketchdescrip {
-    float: none;
-    width: 100%; }
-
-  p {
-    font-size: 1em; }
+  /*cardash*/
+  .original-mockups li {
+    font-size: 15px; }
 
   .typefaceDescription {
     font-family: 'Open-Sans', arial, sans-serif;
@@ -760,6 +792,14 @@ h3 {
     align-self: center;
     width: 75%; } }
 @media screen and (max-width: 550px) {
+  /*cardash*/
+  .original-mockups li {
+    display: none; }
+
+  .original-mockups img {
+    width: 90%;
+    margin: 0 auto; }
+
   .button-flex-container {
     display: flex;
     flex-direction: column;

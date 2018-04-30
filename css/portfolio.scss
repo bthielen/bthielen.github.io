@@ -84,416 +84,23 @@ $blue: #4e728b;
 
 $grey: #191919;
 
-
-/*makes header take up whole page */
-
-
 $blue: #4e728b;
 
-body {
-    margin: 0;
-}
 
-
-nav {
- 
-left: 48%;
- margin-right: 5%;
- margin-top: 2%;
- position: fixed;
-
-
-}
-
-nav ul {
-
-       text-decoration: none;
-}
-
-nav li {
-    display: inline;
-    margin-left: 60px;
-    font-family: Catamaran-ExtraLight, sans-serif;
-    font-size: 20px;
-
-
-}
-
-nav li a {
-
-        text-decoration: none;
-            color: white;
-}
-.current-page {
-
-    border-bottom: 1.5px solid white;
-
-}
-
-header li a:hover {
-
-border-bottom: 1.5px solid white;
-}
-
-.header-text {
-
-color: white;
-text-align: center;
-margin-top: 0;
-position: fixed;
-margin-top: 165px;
-width: 50%;
-margin-right: 25%;
-margin-left: 25%;
-z-index: 1;
-
-
-}
-
-
-.header-text h2 {
-font-family: Brownhill-Script, sans-serif;
-font-size: 140px;
-color: red;
-
-}
-
-.header-text p {
-
-    font-family: Catamaran-ExtraLight, sans-serif;
-    font-size: 22px;
-    margin-top: 2px;
-}
-
-
-header {
-
-    background-image: url(../html/images/blob.png);
-    background-size: auto 650px;
-    background-position: 50% -30px;
-    height: 580px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    z-index: -100;
-
-    top: 0;
-    
-}
-
-.wave img {
-
-position: relative;
-top: -190px;
-overflow: hidden;
-
-
-
- 
-}
-
-.wave {
-
-height: 0;
-    background-color: red;
-    width: 100%;
-}
-
-
-  .hidden-on-desktop {
-
-  display: none; 
-  }
-
-
-#headerImage {
-width: 100%;
-position: relative;
-overflow: hidden;
-
-}
-
-.hidden {
-    display: none;
-}
-
-
-.overlay {
-    height: 0%;
-    width: 100%;
-    position: fixed;
-    z-index: 101;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-y: hidden;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #e5e5e5;
-    display: block;
-    transition: 0.3s;
-    font-family: Catamaran-Light;
-}
-
-
-.overlay a:hover, .overlay a:focus {
-    color: $blue;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-
-@media screen and (max-width: 2455px) {
-
-
-    header {
-    background-image: url(../html/images/blob-xl.png);
-background-size: auto 800px;
-    }
-
-
-}
-
-@media screen and (max-width: 1900px) {
-
-
-    header {
-    background-image: url(../html/images/blob.png);
-    background-size: auto 690px;
-    }
-  
-}
-
-@media screen and (max-width: 1338px) {
-
-
-nav {
-
-    left: 45%;
-}
-
-header {
-    background-image: url(../html/images/blob-med.png);
-    height: 500px;
-    background-size: auto 650px;
-}
-
-
-.wave img {
-
-     top: -110px;
-}
-
-}
-
-@media screen and (max-width: 1105px) {
-
-nav {
-
-    display: none;
-}
-
-
-header {
-
-    background-size: cover;
-    height: 400px;
-      background-size: auto 520px;
-    min-height: initial;
-}
-
-.hidden-on-desktop {
-
-
-    display: initial;
-}
-
-.burger {
-    width: 103%;
-    top: -110px;
-
-    font-size: 55px;
-    cursor:pointer;
-    color: white;
-    margin-top: -360px;
-    margin-left: 91%;
-    z-index: -100;
-
-
-}
-
-
-.burger img {
-
-	width: 40px;
-}
-.header-text {
-
-  margin-top: 25px;
-
-.wave {
-
-    height: 0px;
-    background-color: white;
-    width: 100%;
-
-}
-
-.wave img {
-
-}
-
-}
-
-
-@media screen and (max-width: 770px) {
-
-header {
-    background-image: url(../html/images/blob-small.png);
-
-    background-size: cover;
-      background-size: auto 390px;
-    min-height: initial;
-    height: 250px;
-}
-
-.header-text {
-
-    margin-top: -30px;
-
-}
-
-.header-text p {
-
-    font-size: 18px;
-}
-
-.burger {
-
-   margin-top: -240px;
-    left: 87.8%;
-
-}
-
-.wave {
-
-    height: 9px;
-    width: 100%;
-    background-color: white;
-}
-
-.wave img {
-
-    top: -90px;
-}
-
-
-}
-
-@media screen and (max-width: 647px) {
-
-.wave img {
-
-    top: -50px;
-}
-
-   .burger {
-
-   	margin-left: 87%;
-   }
-
-   .header-text {
-
-   	margin-top: 10px;
-   }
-
-}
-
-@media screen and (max-width: 450px) {
-
-
-    header {
-
-        height: 200px;
-    }
-
-    .burger {
-
-	margin-top: 100px;
-    margin-left: 85%;
-
-}
-
-.header-text {
-
-
-
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.header-text img {
-
-	width: 100%;
-}
-    .header-text p {
-
-font-size: 16px;
-
-}
-
-.wave img {
-
-	display: none;
-}
-}
-
-@media screen and (max-width: 350px) {
-
-.wave {
-
-    display: none;
-
-}
-
-
-
-.burger {
-
-	margin-left: 81%;
-}
-
-}
-}
-
-.icon-box img {
-
-
-}
 
 .about-header {
 
 	width: 85%;
 	margin: 0 auto;
+padding-top: 4%;
+}
+
+.about-header-3 img{
+
+	width: 42%;
+	float: left;
+	margin-left: 5%;
+	 box-shadow: 10px 10px 53px rgba(0,0,0,.3);
 }
 
 .about-header img {
@@ -502,38 +109,140 @@ font-size: 16px;
 	width: 42%;
 	float: left;
 	margin-right: 2.5%;
+	 box-shadow: 10px 10px 53px rgba(0,0,0,.3);
+}
+
+.about-header-2 img {
+
+
+	width: 32%;
+	float: right;
+	margin-right: 6%;
+	 box-shadow: 10px 10px 53px rgba(0,0,0,.3);
 
 }
 
-.about-header h2 {
+.about-header-3 img{
+
+
+	width: 37%;
+	float: left;
+	position: relative;
+	margin-right: 2.5%;
+	top: -410px;
+	 box-shadow: 10px 10px 53px rgba(0,0,0,.3);
+
+}
+
+.about-header-3 {
+
+	border: 2px solid green;
+}
+
+.contact-descrip-right {
 
 	float: right;
+	width: 45%;
+}
+
+.contact-descrip-left {
+
+	float: left;
+	width: 55%;
+}
+
+.contact-descrip-bottom {
+
+	top: -350px;
+	position: relative;
+	border: 2px solid red;
+}
+
+.contact-descrip-right h2, .contact-descrip-bottom h2 {
+
+
 	text-transform: uppercase;
 	font-family: Catamaran-Bold, sans-serif;
 	font-size: 50px;
-	width: 45%;
+
 }
+
+.contact-descrip-left h2 {
+
+
+	text-transform: uppercase;
+	font-family: Catamaran-Bold, sans-serif;
+	font-size: 50px;
+	text-align: right;
+}
+
+
+
+
+.contact-descrip-right h2, .contact-descrip-left h2 {
+
+	text-transform: uppercase;
+	font-family: Catamaran-Bold, sans-serif;
+	font-size: 50px;
+}
+
 
 .stripe {
 
 background-color: $blue;
-width: 85%;
-padding: 10px 10px;
+opacity: .2;
+width: 100%;
+position: relative;
+height: 180px;
 clear: both;
 margin: 0 auto;
+top: -200px;
+z-index: -1;
 }
 
-.stripe p {
 
-	color: white;
-	text-align: center;
+.stripe-2 {
+
+background-color: $blue;
+opacity: .2;
+width: 100%;
+position: relative;
+height: 470px;
+clear: both;
+margin: 0 auto;
+top: -80px;
+z-index: -1;
+}
+.contact-descrip-left p {
+	top: 10%;
+	position: relative;
+	color: black;
+	text-align: right;
 	font-family: Catamaran, sans-serif;
 	font-size: 20px;
-	width: 70%;
-	margin: 0 auto;
-	padding: 20px;
+	line-height: 45px;
+	padding-left: 9%;
 }
 
+.contact-descrip-right p {
+	top: 10%;
+	position: relative;
+	color: black;
+	text-align: left;
+	font-family: Catamaran, sans-serif;
+	font-size: 20px;
+	line-height: 45px;
+}
+
+
+.contact-descrip-bottom p {
+	position: relative;
+	color: black;
+	text-align: left;
+	font-family: Catamaran, sans-serif;
+	font-size: 20px;
+	line-height: 45px;
+}
 .about-heading {
 text-transform: uppercase;
 	font-family: Catamaran-Bold, sans-serif;
@@ -551,6 +260,8 @@ text-transform: uppercase;
 	display: block;
 	margin: 0 auto;
 	padding-top: 70px;
+	width: 90%;
+	max-width: 100%;
 }
 
 

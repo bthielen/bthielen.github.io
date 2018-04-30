@@ -66,6 +66,14 @@ $lightgrey: #4F4F4F;
 
 /*SOLARSPELL PAGE*/
 
+.main-mockup {
+
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+
 
 .original-mockups-flex-container {
 
@@ -94,7 +102,7 @@ li p {
 
 } 
 
-.original-mockups-flex-box li {
+li {
 
 list-style-image: url(../images/x.png);
 
@@ -196,6 +204,7 @@ h2 {
 	text-align: left;
 	font-family: Catamaran-Bold;
 	line-height: 1em;
+	clear: both;
 }
 
 
@@ -269,31 +278,40 @@ h3 {
 }
 
 
-/*babyshower*/
+/*CarDash*/
 
 
-.babyshowersketch {
+.original-mockups img{
 
-	width: 35%;
+	width: 40%;
+	float: left;
+	border: 2px solid #E5E5E5;
+	margin-bottom: 2%;
+
+}
+
+.original-mockups ul {
+
 	float: right;
-	margin-bottom: 3%;
+	max-width: 40%;
 }
 
-#babyshowermockups img {
 
-width: 32%;
-display: inline-block;
+.original-mockups li {
+
+    font-size: 1.4em;
+    color: #757575;
+    text-align: left;
+    font-family: Catamaran-Regular;
+    max-width: 1200px;
+
 }
-
 
 #babyshowermockups {
 	clear: both;
 }
 
-#babyshowersketchdescrip {
-	width: 45%;
-	float: left;
-}
+
 
 
 /*THYME FOR DINNER*/ 
@@ -531,6 +549,12 @@ margin-right: 2.5%;
 	font-size: 1.7em;
 }
 
+.original-mockups li {
+
+	font-size: 20px;
+
+}
+
 }
 						
 						
@@ -673,30 +697,12 @@ flex: 1;
 }
 
 
-	/*BABY SHOWER*/
+	/*cardash*/
 
+	.original-mockups li {
 
-		#babyshowermockups img 
-		{
-			width: 100%;
-			display: block;
-
-
-		}
-
-		.babyshowersketch {
-			width: 100%;
-		}
-
-		#babyshowersketchdescrip {
-			float: none;
-			width: 100%;
-		}
-
-		p {
-
-			font-size: 1em;
-		}
+		font-size: 15px;
+	}
 
 
 	.typefaceDescription {
@@ -750,6 +756,18 @@ align-items: center;
 @media screen and (max-width: 550px) {
 
 
+/*cardash*/
+
+.original-mockups li {
+
+display: none;
+}
+
+.original-mockups img {
+
+	width: 90%;
+	margin: 0 auto;
+}
 .button-flex-container {
 
 	display: flex;

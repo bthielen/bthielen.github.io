@@ -35,364 +35,6 @@ footer p {
 
   .socialIcons img {
     padding: 5px 20px 5px 20px; } }
-/*$grey: #191919;
-
-#headerContact h1 {
-	text-align: left;
-	margin-left: 114px;
-	font-size: 39px;
-	margin-bottom: 0px;
-	font-family: 'Catamaran', sans-serif;
-	float: left;
-
-}
-
-
-#sidebar {
-	margin: 0px;
-	float: right;
-	background-color: #202731;
-	padding: 50px;
-	width: 175px;
-	height: 570px;
-	
-	
-	
-}
-
-
-
-
-#contactInfo {
-	display: block;
-	line-height: 200%;
-	color: white;
-	font-size: 19px;
-	text-decoration: none;
-	text-align: left;
-	list-style: none;
-	
-}
-
-#aboutContainer {
-
-	width: 60%;
-	max-width: 800px;
-	height: auto;
-	margin: 0 auto;
-	border: 2px solid $grey;
-	background-color: white;
-
-}
-
-.profileCircle {
-
-	position: relative;
-	width: 210px;
-	margin-left: auto;
-	margin-right: auto;
-	top: -90px;
-	display: block;
-
-
-}
-
-.profileRectangle {
-	display: none;
-}
-
-
-
-#contactsubContainer {
-
-	width: 100%;
-	background-color: $grey;
-	height: 7.33em;
-	position: relative;
-	top: -55%;
-}
-
-
-#emailMe {
-
-	bottom: 22%;
-	color: white;
-	position: absolute;
-	margin-left: 6%;
-
-	
-
-}
-
-#callMe {
-
-	bottom: 22%;
-	color: white;
-	position: absolute;
-	margin-left: 76%;
-}
-
-#aboutContainer h3 {
-
-	text-align: center;
-	font-family: Catamaran-Bold;
-	font-size: 1.3em;
-}
-
-#contactsubContainer a {
-
-font-family: Catamaran-Light;
-text-decoration: none;
-color: white;
-
-}
-
-
-#aboutContainer p {
-	text-align: center;
-	padding: 2% 8% 2% 8%;
-	font-family: Catamaran-Light;
-
-}
-
-#aboutContainer h2 {
-
-	text-align: center;
-	font-family: Catamaran-Bold;
-	font-size: 1.5em;
-}
-
-#socialIcons {
-
-	
-	text-align: center;
-	margin-bottom: 3%;
-
-}
-
-#socialIcons img{
-
-	padding-right: 20px;
-}
-
-
-@media screen and (max-width: 522px) {
-
-#emailMe {
-
-	position: initial;
-	line-height: 25px;
-	text-align: center;
-	display: block;
-	padding-top: 9px;
-
-
-}
-
-#hruleContact {
-
-	border-top: 1px solid white;
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 2%;
-}
-
-#emailMe h3 {
-
-		margin: 0;
-
-}
-
-#callMe {
-
-	
-position: initial;
-	line-height: 8px;
-	text-align: center;
-	display: block;
-}
-
-#contactsubContainer {
-	 height: 8.6em;
-}
-
-}
-
-@media screen and (max-width: 1000px) {
-
-
-.profileCircle {
-
-	display: none!important;
-}
-
-.profileRectangle {
-	display: block;
-	width: 100%;
-}
-
-#callMe {
-
-right: 21%;
-margin-left: 0;
-}
-
-#emailMe {
-
-	left:15%;
-	margin-left: 0;
-}
-
-#aboutContainer {
-
-	width: 90%;
-}
-
-}
-
-
-
-
-
-
-#formWrapper {
-	width: 450px;
-	position: relative;
-	left: 22%;
-}
-
-form {
-	float: left;
-	width: 500px; 
-	padding: 10px;
-
-}
-
-input {
-    display: block;
-    height: 40px;
-    width: 300px;
-    margin-bottom: 12px;
-    margin-top: 12px;
-    border: 2px solid black;
-   
-	}
-
-
-
-textarea {
-	display: block;
-	height: 150px;
-	width: 400px; 
-	 margin-top: 12px;
-	 margin-bottom: 12px;
-    border: 2px solid black;
-}
-
-#mySubmit {
-	display: inline;
-	margin-top: 13px;
-	width: 100px;
-	background-color: white;
-	text-align: center;
-	font-weight: bold;
-
-}
-
-*/
-.space {
-  height: 50px;
-  width: 1px; }
-
-strong {
-  color: white; }
-
-#highlight {
-  background-color: #1A1A1A;
-  padding-top: 1px;
-  width: 100%;
-  height: auto; }
-
-#highlight h1 {
-  text-align: center;
-  font-size: 7vw;
-  color: #2E3E58;
-  text-align: center;
-  font-family: Catamaran-Bold;
-  margin: 0px; }
-
-#nextBar {
-  background-color: #e4e4ef;
-  height: 33px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -2px;
-  z-index: 1; }
-
-#nextBar button {
-  background-color: #705d9b;
-  border: none;
-  width: 200px;
-  color: white;
-  font-family: Catamaran-Medium;
-  height: 33px;
-  font-size: 20px;
-  cursor: pointer; }
-
-#nextBar a:nth-child(2) {
-  float: right; }
-
-@media screen and (max-width: 680px) {
-  #nextBar {
-    position: initial; }
-
-  #nextBar button {
-    font-size: 15px;
-    width: 130px; } }
-@media screen and (max-width: 500px) {
-  #nextBar button {
-    font-size: 18.5px;
-    width: 140px;
-    height: 47px; }
-
-  #nextBar {
-    height: 47px; } }
-@media screen and (max-width: 450px) {
-  #nextBar button {
-    font-size: 15px;
-    width: 103px; } }
-@font-face {
-  font-family: Gudea-Regular;
-  src: url(../fonts/Gudea-Regular.ttf); }
-@font-face {
-  font-family: risoless;
-  src: url(../fonts/risoless.ttf); }
-@font-face {
-  font-family: streetlight;
-  src: url(../fonts/streetlight.ttf); }
-@font-face {
-  font-family: Catamaran-Bold;
-  src: url(../fonts/Catamaran-Bold.ttf); }
-@font-face {
-  font-family: Catamaran-Medium;
-  src: url(../fonts/Catamaran-Medium.ttf); }
-@font-face {
-  font-family: Catamaran-Black;
-  src: url(../fonts/Catamaran-Black.ttf); }
-@font-face {
-  font-family: Catamaran-ExtraLight;
-  src: url(../fonts/Catamaran-ExtraLight.ttf); }
-@font-face {
-  font-family: Catamaran-Light;
-  src: url(../fonts/Catamaran-Light.ttf); }
-@font-face {
-  font-family: Catamaran-Regular;
-  src: url(../fonts/Catamaran-Regular.ttf); }
-@font-face {
-  font-family: Brownhill-Script;
-  src: url(../fonts/Brownhill-Script.ttf); }
-/*variables*/
 /*makes header take up whole page */
 body {
   margin: 0; }
@@ -622,37 +264,209 @@ header {
 
   .burger {
     margin-left: 81%; } }
+.space {
+  height: 50px;
+  width: 1px; }
+
+strong {
+  color: white; }
+
+#highlight {
+  background-color: #1A1A1A;
+  padding-top: 1px;
+  width: 100%;
+  height: auto; }
+
+#highlight h1 {
+  text-align: center;
+  font-size: 7vw;
+  color: #2E3E58;
+  text-align: center;
+  font-family: Catamaran-Bold;
+  margin: 0px; }
+
+#nextBar {
+  background-color: #e4e4ef;
+  height: 33px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -2px;
+  z-index: 1; }
+
+#nextBar button {
+  background-color: #705d9b;
+  border: none;
+  width: 200px;
+  color: white;
+  font-family: Catamaran-Medium;
+  height: 33px;
+  font-size: 20px;
+  cursor: pointer; }
+
+#nextBar a:nth-child(2) {
+  float: right; }
+
+@media screen and (max-width: 680px) {
+  #nextBar {
+    position: initial; }
+
+  #nextBar button {
+    font-size: 15px;
+    width: 130px; } }
+@media screen and (max-width: 500px) {
+  #nextBar button {
+    font-size: 18.5px;
+    width: 140px;
+    height: 47px; }
+
+  #nextBar {
+    height: 47px; } }
+@media screen and (max-width: 450px) {
+  #nextBar button {
+    font-size: 15px;
+    width: 103px; } }
+@font-face {
+  font-family: Gudea-Regular;
+  src: url(../fonts/Gudea-Regular.ttf); }
+@font-face {
+  font-family: risoless;
+  src: url(../fonts/risoless.ttf); }
+@font-face {
+  font-family: streetlight;
+  src: url(../fonts/streetlight.ttf); }
+@font-face {
+  font-family: Catamaran-Bold;
+  src: url(../fonts/Catamaran-Bold.ttf); }
+@font-face {
+  font-family: Catamaran-Medium;
+  src: url(../fonts/Catamaran-Medium.ttf); }
+@font-face {
+  font-family: Catamaran-Black;
+  src: url(../fonts/Catamaran-Black.ttf); }
+@font-face {
+  font-family: Catamaran-ExtraLight;
+  src: url(../fonts/Catamaran-ExtraLight.ttf); }
+@font-face {
+  font-family: Catamaran-Light;
+  src: url(../fonts/Catamaran-Light.ttf); }
+@font-face {
+  font-family: Catamaran-Regular;
+  src: url(../fonts/Catamaran-Regular.ttf); }
+@font-face {
+  font-family: Brownhill-Script;
+  src: url(../fonts/Brownhill-Script.ttf); }
+/*variables*/
 .about-header {
   width: 85%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 4%; }
+
+.about-header-3 img {
+  width: 42%;
+  float: left;
+  margin-left: 5%;
+  box-shadow: 10px 10px 53px rgba(0, 0, 0, 0.3); }
 
 .about-header img {
   width: 42%;
   float: left;
-  margin-right: 2.5%; }
+  margin-right: 2.5%;
+  box-shadow: 10px 10px 53px rgba(0, 0, 0, 0.3); }
 
-.about-header h2 {
+.about-header-2 img {
+  width: 32%;
   float: right;
+  margin-right: 6%;
+  box-shadow: 10px 10px 53px rgba(0, 0, 0, 0.3); }
+
+.about-header-3 img {
+  width: 37%;
+  float: left;
+  position: relative;
+  margin-right: 2.5%;
+  top: -410px;
+  box-shadow: 10px 10px 53px rgba(0, 0, 0, 0.3); }
+
+.about-header-3 {
+  border: 2px solid green; }
+
+.contact-descrip-right {
+  float: right;
+  width: 45%; }
+
+.contact-descrip-left {
+  float: left;
+  width: 55%; }
+
+.contact-descrip-bottom {
+  top: -350px;
+  position: relative;
+  border: 2px solid red; }
+
+.contact-descrip-right h2, .contact-descrip-bottom h2 {
+  text-transform: uppercase;
+  font-family: Catamaran-Bold, sans-serif;
+  font-size: 50px; }
+
+.contact-descrip-left h2 {
   text-transform: uppercase;
   font-family: Catamaran-Bold, sans-serif;
   font-size: 50px;
-  width: 45%; }
+  text-align: right; }
+
+.contact-descrip-right h2, .contact-descrip-left h2 {
+  text-transform: uppercase;
+  font-family: Catamaran-Bold, sans-serif;
+  font-size: 50px; }
 
 .stripe {
   background-color: #4e728b;
-  width: 85%;
-  padding: 10px 10px;
+  opacity: .2;
+  width: 100%;
+  position: relative;
+  height: 180px;
   clear: both;
-  margin: 0 auto; }
+  margin: 0 auto;
+  top: -200px;
+  z-index: -1; }
 
-.stripe p {
-  color: white;
-  text-align: center;
+.stripe-2 {
+  background-color: #4e728b;
+  opacity: .2;
+  width: 100%;
+  position: relative;
+  height: 470px;
+  clear: both;
+  margin: 0 auto;
+  top: -80px;
+  z-index: -1; }
+
+.contact-descrip-left p {
+  top: 10%;
+  position: relative;
+  color: black;
+  text-align: right;
   font-family: Catamaran, sans-serif;
   font-size: 20px;
-  width: 70%;
-  margin: 0 auto;
-  padding: 20px; }
+  line-height: 45px;
+  padding-left: 9%; }
+
+.contact-descrip-right p {
+  top: 10%;
+  position: relative;
+  color: black;
+  text-align: left;
+  font-family: Catamaran, sans-serif;
+  font-size: 20px;
+  line-height: 45px; }
+
+.contact-descrip-bottom p {
+  position: relative;
+  color: black;
+  text-align: left;
+  font-family: Catamaran, sans-serif;
+  font-size: 20px;
+  line-height: 45px; }
 
 .about-heading {
   text-transform: uppercase;
@@ -664,7 +478,9 @@ header {
 .resume-img {
   display: block;
   margin: 0 auto;
-  padding-top: 70px; }
+  padding-top: 70px;
+  width: 90%;
+  max-width: 100%; }
 
 #wrapper {
   background-color: white;

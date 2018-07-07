@@ -366,6 +366,9 @@ footer p {
   display: -ms-flexbox;
   display: -webkit-flex; }
 
+.original-mockups-flex-box {
+  flex: 1; }
+
 .original-mockups-flex-box img {
   width: 95%;
   border: 1.5px solid gray;

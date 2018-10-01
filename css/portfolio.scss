@@ -259,9 +259,10 @@ text-transform: uppercase;
 
 	display: block;
 	margin: 0 auto;
-	padding-top: 70px;
-	width: 90%;
+	width: 60%;
 	max-width: 100%;
+	box-shadow: 3px 10px 35px gray;
+	margin-bottom: 3%;
 }
 
 
@@ -326,9 +327,6 @@ body {
 }
 
 
-
-
-
 /**
  * Tabs
  */
@@ -337,6 +335,7 @@ body {
 	flex-wrap: wrap; // make sure it wraps
 	margin: 0 auto;
 	justify-content: center;
+	padding-top: 4.5%;
 }
 .tabs label {
 	order: 1; // Put the labels first
@@ -393,6 +392,18 @@ label:hover{
 
 
 /*indvidual pages*/
+
+video {
+
+	width: 70%;
+	height: auto;
+	margin-bottom: 4%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 
 
 
@@ -472,7 +483,7 @@ margin-top: 5%;
 #individualPage p {
 
 	font-family: Catamaran-Medium;
-	font-size: 1.7vw;
+	font-size: 1.4vw;
 }
 
 .boldbodyText {

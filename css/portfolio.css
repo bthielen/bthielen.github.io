@@ -478,9 +478,10 @@ strong {
 .resume-img {
   display: block;
   margin: 0 auto;
-  padding-top: 70px;
-  width: 90%;
-  max-width: 100%; }
+  width: 60%;
+  max-width: 100%;
+  box-shadow: 3px 10px 35px gray;
+  margin-bottom: 3%; }
 
 #wrapper {
   background-color: white;
@@ -532,7 +533,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 4.5%; }
 
 .tabs label {
   order: 1;
@@ -572,6 +574,15 @@ label:hover {
   border-bottom: 3px solid #191919; }
 
 /*indvidual pages*/
+video {
+  width: 70%;
+  height: auto;
+  margin-bottom: 4%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
 #individualPage h2 {
   font-size: 7vw;
   color: #705d9b;
@@ -618,7 +629,7 @@ label:hover {
 
 #individualPage p {
   font-family: Catamaran-Medium;
-  font-size: 1.7vw; }
+  font-size: 1.4vw; }
 
 .boldbodyText {
   font-family: Catamaran-Bold !important;
